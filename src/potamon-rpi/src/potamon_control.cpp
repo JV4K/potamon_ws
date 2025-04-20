@@ -43,6 +43,8 @@ uint8_t potamon_operating_mode;
 VCP_mode_cmd_t mid_mode = IDLE;
 uint8_t faults_flag = 0;
 
+#define VCP_RES_FLAG_MSK 0b11111000
+
 class PotamonNode : public rclcpp::Node
 {
 public:
@@ -179,7 +181,7 @@ private:
 
         ioctl(serial_port, TCSETS2, &tty);
 
-        ptm_vcp_host.FLAGS = 0b00001000;
+        ptm_vcp_host.FLAGS = 0b00001111;
 
         return true;
     }
@@ -197,7 +199,6 @@ private:
                                      "Heartbeat timeout! Last received %.1fms ago",
                                      since_last_heartbeat.seconds() * 1000);
 
-                // Optional: Enter safety mode
                 ptm_vcp_host.MODE = IDLE;
             }
 
@@ -220,7 +221,7 @@ private:
                             bytesWritten, sizeof(ptmn_usb_host_t));
             }
 
-            ptm_vcp_host.FLAGS &= 0b11111000;
+            ptm_vcp_host.FLAGS &= VCP_RES_FLAG_MSK;
 
             // 3. Receive response
             ssize_t bytesRead = read(serial_port, &ptmn_vcp_device, sizeof(ptmn_vcp_device));
@@ -294,6 +295,8 @@ private:
                 imu_msg.linear_acceleration.x = (float)(ptmn_vcp_device.IMU_LACC_X) / 100.0f;
                 imu_msg.linear_acceleration.y = (float)(ptmn_vcp_device.IMU_LACC_Y) / 100.0f;
                 imu_msg.linear_acceleration.z = (float)(ptmn_vcp_device.IMU_LACC_Z) / 100.0f;
+
+                imu_pub_->publish(imu_msg);
 
                 //  ============== Wheel States ==============
                 auto wh_states_msg = potamon_interfaces::msg::WheelStates();
@@ -384,14 +387,16 @@ private:
             if (!faults_flag)
             {
                 mid_mode = VELOCITY;
+                res->success = true;
+                res->message = "Switched to VELOCITY mode";
             }
             else
             {
                 mid_mode = IDLE;
+                res->success = false;
+                res->message = "Failed to switch modes, there are faults in system";
             }
-
-            res->success = true;
-            res->message = "Switched to VELOCITY mode";
+            
             break;
 
         case potamon_interfaces::srv::SetControlMode::Request::MODE_TRAJECTORY:
@@ -411,26 +416,31 @@ private:
             if (!faults_flag)
             {
                 mid_mode = WHEELS_VELOCITY;
+                res->success = true;
+                res->message = "Switched to direct wheel angular vel control";
             }
             else
             {
                 mid_mode = IDLE;
+                res->success = false;
+                res->message = "Failed to switch modes, there are faults in system";
             }
-            res->success = true;
-            res->message = "Switched to direct wheel angular vel control";
+            
             break;
 
         case potamon_interfaces::srv::SetControlMode::Request::MODE_WHEELS_ANGLE:
             if (!faults_flag)
             {
                 mid_mode = WHEELS_ANGLE;
+                res->success = true;
+                res->message = "Switched to direct wheel angle control)";
             }
             else
             {
                 mid_mode = IDLE;
+                res->success = false;
+                res->message = "Failed to switch modes, there are faults in system";
             }
-            res->success = true;
-            res->message = "Switched to direct wheel angle control)";
             break;
 
         default:
