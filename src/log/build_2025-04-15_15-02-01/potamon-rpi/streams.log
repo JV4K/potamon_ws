@@ -1,0 +1,4 @@
+[0.021s] Invoking command in '/home/jv4k/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12
+[0.141s] [ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[19.047s] [100%] [32m[1mLinking CXX executable potamon_rpi[0m
+[20.149s] [100%] Built target potamon_rpi

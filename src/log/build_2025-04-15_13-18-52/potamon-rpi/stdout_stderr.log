@@ -1,0 +1,48 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found potamon_interfaces: 0.0.0 (/home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tf2: 0.36.9 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jv4k/potamon_ws/src/build/potamon-rpi
+[ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In constructor ‘[01m[KPotamonNode::[01;32m[KPotamonNode[m[K()[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:58:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   99 |             std::bind(&PotamonNode::handleSetMode, this, [01;31m[K_1[m[K, _2));
+      |                                                          [01;31m[K^~[m[K
+      |                                                          [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:1[m[K:
+[01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                                [01;36m[K^~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:62:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_2[m[K’?
+   99 |             std::bind(&PotamonNode::handleSetMode, this, _1, [01;31m[K_2[m[K));
+      |                                                              [01;31m[K^~[m[K
+      |                                                              [32m[Kstd::placeholders::_2[m[K
+[01m[K/usr/include/c++/13/functional:295:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_2[m[K’ declared here
+  295 |     _GLIBCXX_PLACEHOLDER const _Placeholder<2> [01;36m[K_2[m[K;
+      |                                                [01;36m[K^~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KhandleSetMode[m[K(potamon_interfaces::srv::SetControlMode_Request_<std::allocator<void> >::SharedPtr, potamon_interfaces::srv::SetControlMode_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:371:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_mutex_[m[K’ was not declared in this scope
+  371 |         std::lock_guard<std::mutex> lock([01;31m[Kcontrol_mutex_[m[K);
+      |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:441:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode_[m[K’ was not declared in this scope
+  441 |         [01;31m[Kcurrent_mode_[m[K = req->mode;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:28:10:[m[K [01;31m[Kfatal error: [m[Kpotamon_USBVCP.h: No such file or directory
+   28 | #include [01;31m[K"potamon_USBVCP.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "potamon_interfaces/msg/WheelVelocities",
+      "fields": [
+        {
+          "name": "velocities",
+          "type": {
+            "type_id": 58,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "potamon_interfaces/msg/WheelVelocities",
+      "hash_string": "RIHS01_69c1f656a5a19fe7e25183897b88c3a41315942ccbe9f2e894ccf46e33b42c4e"
+    }
+  ]
+}

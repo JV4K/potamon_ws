@@ -1,0 +1,65 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In constructor ‘[01m[KPotamonNode::[01;32m[KPotamonNode[m[K()[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:72:61:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   72 |             std::bind(&PotamonNode::velocityCallback, this, [01;31m[K_1[m[K));
+      |                                                             [01;31m[K^~[m[K
+      |                                                             [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:1[m[K:
+[01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                                [01;36m[K^~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KvelocityCallback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:278:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+  278 |         ptm_vcp_host.VX = (int16_t)(msg->linear[01;31m[K->[m[Kx * 1024.0f);
+      |                                                [01;31m[K^~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:279:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_linear_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+  279 |         ptm_vcp_host.VY = (int16_t)(msg->linear[01;31m[K->[m[Ky * 1024.0f);
+      |                                                [01;31m[K^~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:280:49:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::_angular_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’}
+  280 |         ptm_vcp_host.WZ = (int16_t)(msg->angular[01;31m[K->[m[Kz * 1024.0f);
+      |                                                 [01;31m[K^~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KwheelVelocityCallback[m[K(potamon_interfaces::msg::WheelVelocities_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:286:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M1_VEL_TASK[m[K’ in read-only object
+  286 |         [01;31m[Kptm_vcp_host.M1_VEL_TASK = (int16_t)(msg->velocities[0] * 512.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:287:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M2_VEL_TASK[m[K’ in read-only object
+  287 |         [01;31m[Kptm_vcp_host.M2_VEL_TASK = (int16_t)(msg->velocities[1] * 512.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:288:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M3_VEL_TASK[m[K’ in read-only object
+  288 |         [01;31m[Kptm_vcp_host.M3_VEL_TASK = (int16_t)(msg->velocities[2] * 512.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:289:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M4_VEL_TASK[m[K’ in read-only object
+  289 |         [01;31m[Kptm_vcp_host.M4_VEL_TASK = (int16_t)(msg->velocities[3] * 512.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KwheelAngleCallback[m[K(potamon_interfaces::msg::WheelAngles_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:298:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M1_ANG_TASK[m[K’ in read-only object
+  298 |         [01;31m[Kptm_vcp_host.M1_ANG_TASK = (int32_t)(msg->angles[0] * 1024.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:299:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M2_ANG_TASK[m[K’ in read-only object
+  299 |         [01;31m[Kptm_vcp_host.M2_ANG_TASK = (int32_t)(msg->angles[1] * 1024.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:300:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M3_ANG_TASK[m[K’ in read-only object
+  300 |         [01;31m[Kptm_vcp_host.M3_ANG_TASK = (int32_t)(msg->angles[2] * 1024.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:301:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M4_ANG_TASK[m[K’ in read-only object
+  301 |         [01;31m[Kptm_vcp_host.M4_ANG_TASK = (int32_t)(msg->angles[3] * 1024.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:303:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M1_VEL_TASK[m[K’ in read-only object
+  303 |         [01;31m[Kptm_vcp_host.M1_VEL_TASK = (int16_t)(msg->angular_velocity[0] * 512.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:304:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M2_VEL_TASK[m[K’ in read-only object
+  304 |         [01;31m[Kptm_vcp_host.M2_VEL_TASK = (int16_t)(msg->angular_velocity[1] * 512.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:305:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M3_VEL_TASK[m[K’ in read-only object
+  305 |         [01;31m[Kptm_vcp_host.M3_VEL_TASK = (int16_t)(msg->angular_velocity[2] * 512.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:306:34:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kptmn_usb_host_t::M4_VEL_TASK[m[K’ in read-only object
+  306 |         [01;31m[Kptm_vcp_host.M4_VEL_TASK = (int16_t)(msg->angular_velocity[3] * 512.0f)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

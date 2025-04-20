@@ -1,0 +1,16 @@
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/lib/xbox_gamepad_reader/xbox_gamepad_reader
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/ament_index/resource_index/package_run_dependencies/xbox_gamepad_reader
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/ament_index/resource_index/parent_prefix_path/xbox_gamepad_reader
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/environment/ament_prefix_path.sh
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/environment/ament_prefix_path.dsv
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/environment/path.sh
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/environment/path.dsv
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/local_setup.bash
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/local_setup.sh
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/local_setup.zsh
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/local_setup.dsv
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/package.dsv
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/ament_index/resource_index/packages/xbox_gamepad_reader
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/cmake/xbox_gamepad_readerConfig.cmake
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/cmake/xbox_gamepad_readerConfig-version.cmake
+/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/package.xml

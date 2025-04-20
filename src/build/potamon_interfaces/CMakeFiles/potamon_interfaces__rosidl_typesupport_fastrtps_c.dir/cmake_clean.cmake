@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/system_status__type_support_c.cpp.o"
+  "CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/system_status__type_support_c.cpp.o.d"
+  "CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_angles__type_support_c.cpp.o"
+  "CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_angles__type_support_c.cpp.o.d"
+  "CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_states__type_support_c.cpp.o"
+  "CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_states__type_support_c.cpp.o.d"
+  "CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_velocities__type_support_c.cpp.o"
+  "CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_velocities__type_support_c.cpp.o.d"
+  "CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/srv/detail/set_control_mode__type_support_c.cpp.o"
+  "CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/srv/detail/set_control_mode__type_support_c.cpp.o.d"
+  "libpotamon_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libpotamon_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/system_status__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_angles__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_angles__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_states__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_states__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_velocities__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/potamon_interfaces/srv/detail/set_control_mode__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/potamon_interfaces/srv/detail/set_control_mode__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

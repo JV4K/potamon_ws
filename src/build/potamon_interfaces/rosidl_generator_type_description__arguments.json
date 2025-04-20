@@ -1,0 +1,15 @@
+{
+  "package_name": "potamon_interfaces",
+  "output_dir": "/home/jv4k/potamon_ws/src/build/potamon_interfaces/rosidl_generator_type_description/potamon_interfaces",
+  "idl_tuples": [
+    "/home/jv4k/potamon_ws/src/build/potamon_interfaces/rosidl_adapter/potamon_interfaces:msg/WheelStates.idl",
+    "/home/jv4k/potamon_ws/src/build/potamon_interfaces/rosidl_adapter/potamon_interfaces:msg/SystemStatus.idl",
+    "/home/jv4k/potamon_ws/src/build/potamon_interfaces/rosidl_adapter/potamon_interfaces:msg/WheelVelocities.idl",
+    "/home/jv4k/potamon_ws/src/build/potamon_interfaces/rosidl_adapter/potamon_interfaces:msg/WheelAngles.idl",
+    "/home/jv4k/potamon_ws/src/build/potamon_interfaces/rosidl_adapter/potamon_interfaces:srv/SetControlMode.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,100 @@
+// generated from rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em
+// with input from potamon_interfaces:msg/WheelVelocities.idl
+// generated code does not contain a copyright notice
+
+#ifndef POTAMON_INTERFACES__MSG__DETAIL__WHEEL_VELOCITIES__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
+#define POTAMON_INTERFACES__MSG__DETAIL__WHEEL_VELOCITIES__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
+
+#include <cstddef>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "potamon_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
+#include "potamon_interfaces/msg/detail/wheel_velocities__struct.hpp"
+
+#ifndef _WIN32
+# pragma GCC diagnostic push
+# pragma GCC diagnostic ignored "-Wunused-parameter"
+# ifdef __clang__
+#  pragma clang diagnostic ignored "-Wdeprecated-register"
+#  pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
+# endif
+#endif
+#ifndef _WIN32
+# pragma GCC diagnostic pop
+#endif
+
+#include "fastcdr/Cdr.h"
+
+namespace potamon_interfaces
+{
+
+namespace msg
+{
+
+namespace typesupport_fastrtps_cpp
+{
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_potamon_interfaces
+cdr_serialize(
+  const potamon_interfaces::msg::WheelVelocities & ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_potamon_interfaces
+cdr_deserialize(
+  eprosima::fastcdr::Cdr & cdr,
+  potamon_interfaces::msg::WheelVelocities & ros_message);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_potamon_interfaces
+get_serialized_size(
+  const potamon_interfaces::msg::WheelVelocities & ros_message,
+  size_t current_alignment);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_potamon_interfaces
+max_serialized_size_WheelVelocities(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_potamon_interfaces
+cdr_serialize_key(
+  const potamon_interfaces::msg::WheelVelocities & ros_message,
+  eprosima::fastcdr::Cdr &);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_potamon_interfaces
+get_serialized_size_key(
+  const potamon_interfaces::msg::WheelVelocities & ros_message,
+  size_t current_alignment);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_potamon_interfaces
+max_serialized_size_key_WheelVelocities(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+}  // namespace typesupport_fastrtps_cpp
+
+}  // namespace msg
+
+}  // namespace potamon_interfaces
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_potamon_interfaces
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cpp, potamon_interfaces, msg, WheelVelocities)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // POTAMON_INTERFACES__MSG__DETAIL__WHEEL_VELOCITIES__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_

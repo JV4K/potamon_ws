@@ -1,0 +1,358 @@
+[0.014s] Invoking command in '/home/jv4k/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[2.308s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:366:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_srvs[m[K’ does not name a type
+[2.309s]   366 |         const [01;31m[Kcustom_srvs[m[K::srv::SetControlMode::Request::SharedPtr req,
+[2.309s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[2.309s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:366:31:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[2.309s]   366 |         const custom_srvs::srv[01;31m[K::[m[KSetControlMode::Request::SharedPtr req,
+[2.310s]       |                               [01;31m[K^~[m[K
+[2.310s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:366:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.310s]   366 |         const custom_srvs::srv[01;31m[K:[m[K[32m[K:[m[KSetControlMode::Request::SharedPtr req,
+[2.310s]       |                               [01;31m[K^[m[K[32m[K~[m[K
+[2.310s]       |                               [32m[K)[m[K
+[2.311s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:365:36:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.311s]   365 |     void PotamonNode::handleSetMode[01;36m[K([m[K
+[2.311s]       |                                    [01;36m[K^[m[K
+[2.311s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:365:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleSetMode[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.312s]   365 |     void [01;31m[KPotamonNode[m[K::handleSetMode(
+[2.312s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.312s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:366:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.312s]   366 |         const custom_srvs::[01;31m[Ksrv[m[K::SetControlMode::Request::SharedPtr req,
+[2.313s]       |                            [01;31m[K^~~[m[K
+[2.313s]       |                               [32m[K;[m[K
+[2.313s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:366:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSetControlMode[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[2.314s]   366 |         const custom_srvs::srv::[01;31m[KSetControlMode[m[K::Request::SharedPtr req,
+[2.314s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.314s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:443:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ does not name a type
+[2.315s]   443 |         const [01;31m[Kstd_srvs[m[K::srv::Trigger::Request::SharedPtr,
+[2.315s]       |               [01;31m[K^~~~~~~~[m[K
+[2.315s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:443:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[2.315s]   443 |         const std_srvs::srv[01;31m[K::[m[KTrigger::Request::SharedPtr,
+[2.316s]       |                            [01;31m[K^~[m[K
+[2.316s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:443:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.316s]   443 |         const std_srvs::srv[01;31m[K:[m[K[32m[K:[m[KTrigger::Request::SharedPtr,
+[2.316s]       |                            [01;31m[K^[m[K[32m[K~[m[K
+[2.317s]       |                            [32m[K)[m[K
+[2.317s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:442:42:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.317s]   442 |     void PotamonNode::handleResetOdometry[01;36m[K([m[K
+[2.317s]       |                                          [01;36m[K^[m[K
+[2.317s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:442:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleResetOdometry[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.317s]   442 |     void [01;31m[KPotamonNode[m[K::handleResetOdometry(
+[2.318s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.318s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:443:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.318s]   443 |         const std_srvs::[01;31m[Ksrv[m[K::Trigger::Request::SharedPtr,
+[2.318s]       |                         [01;31m[K^~~[m[K
+[2.318s]       |                            [32m[K;[m[K
+[2.318s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:443:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTrigger[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[2.319s]   443 |         const std_srvs::srv::[01;31m[KTrigger[m[K::Request::SharedPtr,
+[2.319s]       |                              [01;31m[K^~~~~~~[m[K
+[2.319s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:452:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ does not name a type
+[2.319s]   452 |         const [01;31m[Kstd_srvs[m[K::srv::Trigger::Request::SharedPtr,
+[2.319s]       |               [01;31m[K^~~~~~~~[m[K
+[2.320s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:452:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[2.320s]   452 |         const std_srvs::srv[01;31m[K::[m[KTrigger::Request::SharedPtr,
+[2.320s]       |                            [01;31m[K^~[m[K
+[2.320s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:452:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.320s]   452 |         const std_srvs::srv[01;31m[K:[m[K[32m[K:[m[KTrigger::Request::SharedPtr,
+[2.320s]       |                            [01;31m[K^[m[K[32m[K~[m[K
+[2.321s]       |                            [32m[K)[m[K
+[2.321s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:451:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.321s]   451 |     void PotamonNode::handleClearFault[01;36m[K([m[K
+[2.321s]       |                                       [01;36m[K^[m[K
+[2.321s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:451:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleClearFault[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.322s]   451 |     void [01;31m[KPotamonNode[m[K::handleClearFault(
+[2.322s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.322s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:452:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.322s]   452 |         const std_srvs::[01;31m[Ksrv[m[K::Trigger::Request::SharedPtr,
+[2.322s]       |                         [01;31m[K^~~[m[K
+[2.322s]       |                            [32m[K;[m[K
+[2.322s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:452:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTrigger[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[2.323s]   452 |         const std_srvs::srv::[01;31m[KTrigger[m[K::Request::SharedPtr,
+[2.323s]       |                              [01;31m[K^~~~~~~[m[K
+[2.323s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:461:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ does not name a type
+[2.323s]   461 |         const [01;31m[Kstd_srvs[m[K::srv::Trigger::Request::SharedPtr,
+[2.323s]       |               [01;31m[K^~~~~~~~[m[K
+[2.324s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:461:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[2.324s]   461 |         const std_srvs::srv[01;31m[K::[m[KTrigger::Request::SharedPtr,
+[2.324s]       |                            [01;31m[K^~[m[K
+[2.324s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:461:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.324s]   461 |         const std_srvs::srv[01;31m[K:[m[K[32m[K:[m[KTrigger::Request::SharedPtr,
+[2.325s]       |                            [01;31m[K^[m[K[32m[K~[m[K
+[2.325s]       |                            [32m[K)[m[K
+[2.325s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:460:38:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.325s]   460 |     void PotamonNode::handleGlobDomOn[01;36m[K([m[K
+[2.325s]       |                                      [01;36m[K^[m[K
+[2.325s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:460:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleGlobDomOn[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.326s]   460 |     void [01;31m[KPotamonNode[m[K::handleGlobDomOn(
+[2.326s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.326s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:461:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.326s]   461 |         const std_srvs::[01;31m[Ksrv[m[K::Trigger::Request::SharedPtr,
+[2.326s]       |                         [01;31m[K^~~[m[K
+[2.326s]       |                            [32m[K;[m[K
+[2.327s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:461:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTrigger[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[2.327s]   461 |         const std_srvs::srv::[01;31m[KTrigger[m[K::Request::SharedPtr,
+[2.327s]       |                              [01;31m[K^~~~~~~[m[K
+[2.327s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:470:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ does not name a type
+[2.328s]   470 |         const [01;31m[Kstd_srvs[m[K::srv::Trigger::Request::SharedPtr,
+[2.328s]       |               [01;31m[K^~~~~~~~[m[K
+[2.328s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:470:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[2.328s]   470 |         const std_srvs::srv[01;31m[K::[m[KTrigger::Request::SharedPtr,
+[2.329s]       |                            [01;31m[K^~[m[K
+[2.329s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:470:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.329s]   470 |         const std_srvs::srv[01;31m[K:[m[K[32m[K:[m[KTrigger::Request::SharedPtr,
+[2.329s]       |                            [01;31m[K^[m[K[32m[K~[m[K
+[2.329s]       |                            [32m[K)[m[K
+[2.330s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:469:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.330s]   469 |     void PotamonNode::handleGlobDomOff[01;36m[K([m[K
+[2.330s]       |                                       [01;36m[K^[m[K
+[2.330s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:469:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleGlobDomOff[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.331s]   469 |     void [01;31m[KPotamonNode[m[K::handleGlobDomOff(
+[2.331s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.331s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:470:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.331s]   470 |         const std_srvs::[01;31m[Ksrv[m[K::Trigger::Request::SharedPtr,
+[2.331s]       |                         [01;31m[K^~~[m[K
+[2.331s]       |                            [32m[K;[m[K
+[2.332s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:470:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTrigger[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[2.332s]   470 |         const std_srvs::srv::[01;31m[KTrigger[m[K::Request::SharedPtr,
+[2.332s]       |                              [01;31m[K^~~~~~~[m[K
+[2.332s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:479:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ does not name a type
+[2.332s]   479 |         const [01;31m[Kstd_srvs[m[K::srv::Trigger::Request::SharedPtr,
+[2.333s]       |               [01;31m[K^~~~~~~~[m[K
+[2.333s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:479:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[2.333s]   479 |         const std_srvs::srv[01;31m[K::[m[KTrigger::Request::SharedPtr,
+[2.333s]       |                            [01;31m[K^~[m[K
+[2.333s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:479:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.333s]   479 |         const std_srvs::srv[01;31m[K:[m[K[32m[K:[m[KTrigger::Request::SharedPtr,
+[2.333s]       |                            [01;31m[K^[m[K[32m[K~[m[K
+[2.334s]       |                            [32m[K)[m[K
+[2.334s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:478:42:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.334s]   478 |     void PotamonNode::handlePidHeadEnable[01;36m[K([m[K
+[2.334s]       |                                          [01;36m[K^[m[K
+[2.334s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:478:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandlePidHeadEnable[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.334s]   478 |     void [01;31m[KPotamonNode[m[K::handlePidHeadEnable(
+[2.335s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.335s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:479:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.335s]   479 |         const std_srvs::[01;31m[Ksrv[m[K::Trigger::Request::SharedPtr,
+[2.335s]       |                         [01;31m[K^~~[m[K
+[2.335s]       |                            [32m[K;[m[K
+[2.335s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:479:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTrigger[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[2.336s]   479 |         const std_srvs::srv::[01;31m[KTrigger[m[K::Request::SharedPtr,
+[2.336s]       |                              [01;31m[K^~~~~~~[m[K
+[2.337s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:488:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ does not name a type
+[2.337s]   488 |         const [01;31m[Kstd_srvs[m[K::srv::Trigger::Request::SharedPtr,
+[2.337s]       |               [01;31m[K^~~~~~~~[m[K
+[2.338s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:488:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[2.338s]   488 |         const std_srvs::srv[01;31m[K::[m[KTrigger::Request::SharedPtr,
+[2.338s]       |                            [01;31m[K^~[m[K
+[2.338s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:488:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.338s]   488 |         const std_srvs::srv[01;31m[K:[m[K[32m[K:[m[KTrigger::Request::SharedPtr,
+[2.339s]       |                            [01;31m[K^[m[K[32m[K~[m[K
+[2.339s]       |                            [32m[K)[m[K
+[2.339s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:487:43:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.339s]   487 |     void PotamonNode::handlePidHeadDisable[01;36m[K([m[K
+[2.340s]       |                                           [01;36m[K^[m[K
+[2.340s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:487:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandlePidHeadDisable[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.340s]   487 |     void [01;31m[KPotamonNode[m[K::handlePidHeadDisable(
+[2.340s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.340s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:488:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.340s]   488 |         const std_srvs::[01;31m[Ksrv[m[K::Trigger::Request::SharedPtr,
+[2.341s]       |                         [01;31m[K^~~[m[K
+[2.341s]       |                            [32m[K;[m[K
+[2.341s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:488:30:[m[K [01;31m[Kerror: [m[K‘[01m[KTrigger[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[2.341s]   488 |         const std_srvs::srv::[01;31m[KTrigger[m[K::Request::SharedPtr,
+[2.341s]       |                              [01;31m[K^~~~~~~[m[K
+[2.441s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:525:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kpotamon_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[2.442s]   525 |     rclcpp::Service<potamon_interfaces::[01;31m[Ksrv[m[K::SetControlMode>::SharedPtr set_mode_srv_;
+[2.442s]       |                                         [01;31m[K^~~[m[K
+[2.442s] In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[2.442s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+[2.443s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[2.443s]                  from [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:1[m[K:
+[2.443s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[2.443s]    30 | namespace [01;36m[Ksrv[m[K
+[2.443s]       |           [01;36m[K^~~[m[K
+[2.444s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:525:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.444s]   525 |     rclcpp::Service<potamon_interfaces::srv::SetControlMode[01;31m[K>[m[K::SharedPtr set_mode_srv_;
+[2.444s]       |                                                            [01;31m[K^[m[K
+[2.444s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:525:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.444s]   525 |     rclcpp::Service<potamon_interfaces::srv::SetControlMode>::[01;31m[KSharedPtr[m[K set_mode_srv_;
+[2.445s]       |                                                               [01;31m[K^~~~~~~~~[m[K
+[2.445s]       |                                                                        [32m[K;[m[K
+[2.445s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:525:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_mode_srv_[m[K’ does not name a type
+[2.445s]   525 |     rclcpp::Service<potamon_interfaces::srv::SetControlMode>::SharedPtr [01;31m[Kset_mode_srv_[m[K;
+[2.445s]       |                                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.451s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:526:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.451s]   526 |     rclcpp::Service<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr glob_dom_on_srv;
+[2.451s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.451s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:526:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.451s]   526 |     rclcpp::Service<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr glob_dom_on_srv;
+[2.451s]       |                                           [01;31m[K^[m[K
+[2.452s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:526:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.452s]   526 |     rclcpp::Service<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K glob_dom_on_srv;
+[2.452s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.452s]       |                                                       [32m[K;[m[K
+[2.452s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:526:46:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.452s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:525:63:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.453s]   525 |     rclcpp::Service<potamon_interfaces::srv::SetControlMode>::[01;36m[KSharedPtr[m[K set_mode_srv_;
+[2.453s]       |                                                               [01;36m[K^~~~~~~~~[m[K
+[2.454s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:526:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob_dom_on_srv[m[K’ does not name a type
+[2.454s]   526 |     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kglob_dom_on_srv[m[K;
+[2.454s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.460s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:527:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.460s]   527 |     rclcpp::Service<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr glob_dom_off_srv;
+[2.460s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.460s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:527:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.461s]   527 |     rclcpp::Service<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr glob_dom_off_srv;
+[2.461s]       |                                           [01;31m[K^[m[K
+[2.461s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:527:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.461s]   527 |     rclcpp::Service<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K glob_dom_off_srv;
+[2.462s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.462s]       |                                                       [32m[K;[m[K
+[2.462s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:527:46:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.462s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:525:63:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.462s]   525 |     rclcpp::Service<potamon_interfaces::srv::SetControlMode>::[01;36m[KSharedPtr[m[K set_mode_srv_;
+[2.463s]       |                                                               [01;36m[K^~~~~~~~~[m[K
+[2.463s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:527:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob_dom_off_srv[m[K’ does not name a type
+[2.463s]   527 |     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kglob_dom_off_srv[m[K;
+[2.464s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.470s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:528:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.470s]   528 |     rclcpp::Service<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr pid_head_on_srv;
+[2.471s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.471s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:528:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.471s]   528 |     rclcpp::Service<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr pid_head_on_srv;
+[2.471s]       |                                           [01;31m[K^[m[K
+[2.471s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:528:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.472s]   528 |     rclcpp::Service<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K pid_head_on_srv;
+[2.472s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.472s]       |                                                       [32m[K;[m[K
+[2.472s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:528:46:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.472s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:525:63:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.473s]   525 |     rclcpp::Service<potamon_interfaces::srv::SetControlMode>::[01;36m[KSharedPtr[m[K set_mode_srv_;
+[2.473s]       |                                                               [01;36m[K^~~~~~~~~[m[K
+[2.473s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:528:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kpid_head_on_srv[m[K’ does not name a type
+[2.474s]   528 |     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kpid_head_on_srv[m[K;
+[2.474s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.479s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:529:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.480s]   529 |     rclcpp::Service<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr pid_head_off_srv;
+[2.480s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.480s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:529:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.480s]   529 |     rclcpp::Service<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr pid_head_off_srv;
+[2.481s]       |                                           [01;31m[K^[m[K
+[2.481s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:529:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.481s]   529 |     rclcpp::Service<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K pid_head_off_srv;
+[2.481s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.481s]       |                                                       [32m[K;[m[K
+[2.482s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:529:46:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.482s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:525:63:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.482s]   525 |     rclcpp::Service<potamon_interfaces::srv::SetControlMode>::[01;36m[KSharedPtr[m[K set_mode_srv_;
+[2.482s]       |                                                               [01;36m[K^~~~~~~~~[m[K
+[2.483s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:529:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kpid_head_off_srv[m[K’ does not name a type
+[2.483s]   529 |     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kpid_head_off_srv[m[K;
+[2.483s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.489s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:530:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.489s]   530 |     rclcpp::Service<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr reset_odom_srv_;
+[2.490s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.490s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:530:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.490s]   530 |     rclcpp::Service<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr reset_odom_srv_;
+[2.490s]       |                                           [01;31m[K^[m[K
+[2.490s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:530:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.490s]   530 |     rclcpp::Service<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K reset_odom_srv_;
+[2.491s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.491s]       |                                                       [32m[K;[m[K
+[2.491s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:530:46:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.491s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:525:63:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.491s]   525 |     rclcpp::Service<potamon_interfaces::srv::SetControlMode>::[01;36m[KSharedPtr[m[K set_mode_srv_;
+[2.491s]       |                                                               [01;36m[K^~~~~~~~~[m[K
+[2.492s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:530:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kreset_odom_srv_[m[K’ does not name a type
+[2.492s]   530 |     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kreset_odom_srv_[m[K;
+[2.493s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.498s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:531:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.499s]   531 |     rclcpp::Service<[01;31m[Kstd_srvs[m[K::srv::Trigger>::SharedPtr clear_fault_srv_;
+[2.499s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.499s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:531:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.499s]   531 |     rclcpp::Service<std_srvs::srv::Trigger[01;31m[K>[m[K::SharedPtr clear_fault_srv_;
+[2.499s]       |                                           [01;31m[K^[m[K
+[2.499s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:531:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.499s]   531 |     rclcpp::Service<std_srvs::srv::Trigger>::[01;31m[KSharedPtr[m[K clear_fault_srv_;
+[2.499s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[2.499s]       |                                                       [32m[K;[m[K
+[2.499s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:531:46:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.499s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:525:63:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint PotamonNode::SharedPtr[m[K’
+[2.499s]   525 |     rclcpp::Service<potamon_interfaces::srv::SetControlMode>::[01;36m[KSharedPtr[m[K set_mode_srv_;
+[2.499s]       |                                                               [01;36m[K^~~~~~~~~[m[K
+[2.502s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:531:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kclear_fault_srv_[m[K’ does not name a type
+[2.502s]   531 |     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr [01;31m[Kclear_fault_srv_[m[K;
+[2.503s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.524s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In constructor ‘[01m[KPotamonNode::[01;32m[KPotamonNode[m[K()[m[K’:
+[2.524s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_mode_srv_[m[K’ was not declared in this scope
+[2.524s]    95 |         [01;31m[Kset_mode_srv_[m[K = create_service<potamon_interfaces::srv::SetControlMode>(
+[2.525s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.525s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:95:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kpotamon_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[2.525s]    95 |         set_mode_srv_ = create_service<potamon_interfaces::[01;31m[Ksrv[m[K::SetControlMode>(
+[2.525s]       |                                                            [01;31m[K^~~[m[K
+[2.525s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[2.526s]    30 | namespace [01;36m[Ksrv[m[K
+[2.526s]       |           [01;36m[K^~~[m[K
+[2.526s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:95:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.526s]    95 |         set_mode_srv_ = [01;31m[Kcreate_service<potamon_interfaces::srv::SetControlMode>[m[K(
+[2.526s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.527s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:97:58:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[2.527s]    97 |             std::bind(&PotamonNode::handleSetMode, this, [01;31m[K_1[m[K, _2));
+[2.527s]       |                                                          [01;31m[K^~[m[K
+[2.527s]       |                                                          [32m[Kstd::placeholders::_1[m[K
+[2.527s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+[2.527s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[2.528s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[2.528s] [01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[2.528s]   294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+[2.528s]       |                                                [01;36m[K^~[m[K
+[2.528s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:97:62:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_2[m[K’?
+[2.528s]    97 |             std::bind(&PotamonNode::handleSetMode, this, _1, [01;31m[K_2[m[K));
+[2.529s]       |                                                              [01;31m[K^~[m[K
+[2.529s]       |                                                              [32m[Kstd::placeholders::_2[m[K
+[2.529s] [01m[K/usr/include/c++/13/functional:295:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_2[m[K’ declared here
+[2.529s]   295 |     _GLIBCXX_PLACEHOLDER const _Placeholder<2> [01;36m[K_2[m[K;
+[2.529s]       |                                                [01;36m[K^~[m[K
+[2.536s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob_dom_on_srv[m[K’ was not declared in this scope
+[2.536s]    99 |         [01;31m[Kglob_dom_on_srv[m[K = create_service<std_srvs::srv::Trigger>(
+[2.536s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.542s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_srvs[m[K’ was not declared in this scope
+[2.542s]    99 |         glob_dom_on_srv = create_service<[01;31m[Kstd_srvs[m[K::srv::Trigger>(
+[2.542s]       |                                          [01;31m[K^~~~~~~~[m[K
+[2.542s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.543s]    99 |         glob_dom_on_srv = [01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K(
+[2.543s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.552s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:103:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kglob_dom_off_srv[m[K’ was not declared in this scope
+[2.553s]   103 |         [01;31m[Kglob_dom_off_srv[m[K = create_service<std_srvs::srv::Trigger>(
+[2.553s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.553s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:103:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.553s]   103 |         glob_dom_off_srv = [01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K(
+[2.553s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.562s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:107:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpid_head_on_srv[m[K’ was not declared in this scope
+[2.562s]   107 |         [01;31m[Kpid_head_on_srv[m[K = create_service<std_srvs::srv::Trigger>(
+[2.562s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.562s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:107:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.562s]   107 |         pid_head_on_srv = [01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K(
+[2.562s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.572s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:111:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpid_head_off_srv[m[K’ was not declared in this scope
+[2.572s]   111 |         [01;31m[Kpid_head_off_srv[m[K = create_service<std_srvs::srv::Trigger>(
+[2.572s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.573s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:111:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.573s]   111 |         pid_head_off_srv = [01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K(
+[2.573s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.581s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:115:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kreset_odom_srv_[m[K’ was not declared in this scope
+[2.581s]   115 |         [01;31m[Kreset_odom_srv_[m[K = create_service<std_srvs::srv::Trigger>(
+[2.582s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.582s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:115:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.582s]   115 |         reset_odom_srv_ = [01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K(
+[2.582s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.592s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:119:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclear_fault_srv_[m[K’ was not declared in this scope
+[2.592s]   119 |         [01;31m[Kclear_fault_srv_[m[K = create_service<std_srvs::srv::Trigger>(
+[2.592s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.593s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:119:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.593s]   119 |         clear_fault_srv_ = [01;31m[Kcreate_service<std_srvs::srv::Trigger>[m[K(
+[2.593s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.743s] gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+[7.744s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+[7.744s] gmake: *** [Makefile:146: all] Error 2
+[7.751s] Invoked command in '/home/jv4k/potamon_ws/src/build/potamon-rpi' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12

@@ -1,0 +1,32 @@
+[0.020s] Invoking command in '/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/xbox_gamepad_reader -- -j12 -l12
+[0.074s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.466s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.526s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.542s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.584s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.691s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.693s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.809s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.922s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.021s] -- Found joy: 3.3.0 (/opt/ros/jazzy/share/joy/cmake)
+[1.033s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.194s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.194s] -- Configured cppcheck include dirs: 
+[1.194s] -- Configured cppcheck exclude dirs and/or files: 
+[1.195s] -- Added test 'lint_cmake' to check CMake code style
+[1.197s] -- Added test 'uncrustify' to check C / C++ code style
+[1.198s] -- Configured uncrustify additional arguments: 
+[1.198s] -- Added test 'xmllint' to check XML markup files
+[1.200s] -- Configuring done (1.1s)
+[1.223s] -- Generating done (0.0s)
+[1.232s] -- Build files have been written to: /home/jv4k/potamon_ws/src/build/xbox_gamepad_reader
+[1.321s] [ 50%] [32mBuilding CXX object CMakeFiles/xbox_gamepad_reader.dir/src/xbox_gamepad_reader.cpp.o[0m
+[1.783s] [01m[K/home/jv4k/potamon_ws/src/xbox_gamepad_reader/src/xbox_gamepad_reader.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kpotamon_interfaces/srv/set_control_mode.hpp: No such file or directory
+[1.783s]     5 | #include [01;31m[K"potamon_interfaces/srv/set_control_mode.hpp"[m[K
+[1.783s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.784s] compilation terminated.
+[1.790s] gmake[2]: *** [CMakeFiles/xbox_gamepad_reader.dir/build.make:76: CMakeFiles/xbox_gamepad_reader.dir/src/xbox_gamepad_reader.cpp.o] Error 1
+[1.791s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xbox_gamepad_reader.dir/all] Error 2
+[1.791s] gmake: *** [Makefile:146: all] Error 2
+[1.796s] Invoked command in '/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/xbox_gamepad_reader -- -j12 -l12

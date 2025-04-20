@@ -1,0 +1,10 @@
+{
+  "package_name": "potamon_interfaces",
+  "non_idl_tuples": [
+    "/home/jv4k/potamon_ws/src/potamon_interfaces:msg/WheelStates.msg",
+    "/home/jv4k/potamon_ws/src/potamon_interfaces:msg/SystemStatus.msg",
+    "/home/jv4k/potamon_ws/src/potamon_interfaces:msg/WheelVelocities.msg",
+    "/home/jv4k/potamon_ws/src/potamon_interfaces:msg/WheelAngles.msg",
+    "/home/jv4k/potamon_ws/src/potamon_interfaces:srv/SetControlMode.srv"
+  ]
+}

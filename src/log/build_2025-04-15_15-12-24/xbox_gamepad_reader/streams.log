@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/xbox_gamepad_reader -- -j12 -l12
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/xbox_gamepad_reader.dir/src/xbox_gamepad_reader.cpp.o[0m
+[9.060s] [100%] [32m[1mLinking CXX executable xbox_gamepad_reader[0m
+[9.588s] [100%] Built target xbox_gamepad_reader
+[9.610s] Invoked command in '/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/xbox_gamepad_reader -- -j12 -l12
+[9.612s] Invoking command in '/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jv4k/potamon_ws/src/build/xbox_gamepad_reader
+[9.622s] -- Install configuration: ""
+[9.622s] -- Installing: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/lib/xbox_gamepad_reader/xbox_gamepad_reader
+[9.630s] -- Set non-toolchain portion of runtime path of "/home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/lib/xbox_gamepad_reader/xbox_gamepad_reader" to ""
+[9.630s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/ament_index/resource_index/package_run_dependencies/xbox_gamepad_reader
+[9.630s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/ament_index/resource_index/parent_prefix_path/xbox_gamepad_reader
+[9.631s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/environment/ament_prefix_path.sh
+[9.631s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/environment/ament_prefix_path.dsv
+[9.631s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/environment/path.sh
+[9.631s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/environment/path.dsv
+[9.631s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/local_setup.bash
+[9.632s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/local_setup.sh
+[9.632s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/local_setup.zsh
+[9.632s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/local_setup.dsv
+[9.632s] -- Installing: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/package.dsv
+[9.632s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/ament_index/resource_index/packages/xbox_gamepad_reader
+[9.633s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/cmake/xbox_gamepad_readerConfig.cmake
+[9.633s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/cmake/xbox_gamepad_readerConfig-version.cmake
+[9.633s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/xbox_gamepad_reader/share/xbox_gamepad_reader/package.xml
+[9.635s] Invoked command in '/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jv4k/potamon_ws/src/build/xbox_gamepad_reader

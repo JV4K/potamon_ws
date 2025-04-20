@@ -1,0 +1,527 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (potamon_interfaces) JobQueued: {'identifier': 'potamon_interfaces', 'dependencies': OrderedDict()}
+[0.000479] (potamon-rpi) JobQueued: {'identifier': 'potamon-rpi', 'dependencies': OrderedDict({'potamon_interfaces': '/home/jv4k/potamon_ws/src/install/potamon_interfaces'})}
+[0.000551] (potamon_client) JobQueued: {'identifier': 'potamon_client', 'dependencies': OrderedDict({'potamon_interfaces': '/home/jv4k/potamon_ws/src/install/potamon_interfaces'})}
+[0.000787] (potamon_interfaces) JobStarted: {'identifier': 'potamon_interfaces'}
+[0.011550] (potamon_interfaces) JobProgress: {'identifier': 'potamon_interfaces', 'progress': 'cmake'}
+[0.012178] (potamon_interfaces) JobProgress: {'identifier': 'potamon_interfaces', 'progress': 'build'}
+[0.012757] (potamon_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jv4k/potamon_ws/src/build/potamon_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/jv4k/potamon_ws/src/build/potamon_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jv4k', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/jv4k/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/181/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'STM32CubeMX_PATH': '/home/jv4k/STM32CubeMX', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jv4k', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.96.4', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/181/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/jv4k/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/181/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/181/usr/share/code/code', 'MANAGERPID': '5356', 'SYSTEMD_EXEC_PID': '5700', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1524640', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jv4k', 'JOURNAL_STREAM': '9:36875', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'jv4k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JV4K-Ubuntu:@/tmp/.ICE-unix/5635,unix/JV4K-Ubuntu:/tmp/.ICE-unix/5635', 'GTK_EXE_PREFIX': '/snap/code/181/usr', 'INVOCATION_ID': '43c9fc0350874e65a061a72ba8d5dc38', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/181/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/jv4k/snap/code/181/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GHWR42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-12ab1a581d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/jv4k/snap/code/181/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jv4k/potamon_ws/src/build/potamon_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/jv4k/snap/code/181/.local/share:/home/jv4k/snap/code/181:/snap/code/181/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.098011] (potamon_interfaces) StdoutLine: {'line': b'[  1%] Built target potamon_interfaces__rosidl_generator_type_description\n'}
+[0.099186] (-) TimerEvent: {}
+[0.110852] (potamon_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_potamon_interfaces\n'}
+[0.123811] (potamon_interfaces) StdoutLine: {'line': b'[  2%] Built target potamon_interfaces__cpp\n'}
+[0.133510] (potamon_interfaces) StdoutLine: {'line': b'[ 25%] Built target potamon_interfaces__rosidl_generator_c\n'}
+[0.169141] (potamon_interfaces) StdoutLine: {'line': b'[ 54%] Built target potamon_interfaces__rosidl_typesupport_c\n'}
+[0.169428] (potamon_interfaces) StdoutLine: {'line': b'[ 54%] Built target potamon_interfaces__rosidl_typesupport_cpp\n'}
+[0.169560] (potamon_interfaces) StdoutLine: {'line': b'[ 54%] Built target potamon_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.172728] (potamon_interfaces) StdoutLine: {'line': b'[ 71%] Built target potamon_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.172976] (potamon_interfaces) StdoutLine: {'line': b'[ 72%] Built target potamon_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.176141] (potamon_interfaces) StdoutLine: {'line': b'[ 82%] Built target potamon_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.199314] (-) TimerEvent: {}
+[0.203561] (potamon_interfaces) StdoutLine: {'line': b'[ 82%] Built target potamon_interfaces\n'}
+[0.230449] (potamon_interfaces) StdoutLine: {'line': b'[ 83%] Built target potamon_interfaces__py\n'}
+[0.260623] (potamon_interfaces) StdoutLine: {'line': b'[ 91%] Built target potamon_interfaces__rosidl_generator_py\n'}
+[0.288296] (potamon_interfaces) StdoutLine: {'line': b'[ 94%] Built target potamon_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[0.288812] (potamon_interfaces) StdoutLine: {'line': b'[ 98%] Built target potamon_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[0.289036] (potamon_interfaces) StdoutLine: {'line': b'[100%] Built target potamon_interfaces_s__rosidl_typesupport_c\n'}
+[0.299477] (-) TimerEvent: {}
+[0.366804] (potamon_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.389057] (potamon_interfaces) StdoutLine: {'line': b'writing potamon_interfaces.egg-info/PKG-INFO\n'}
+[0.389407] (potamon_interfaces) StdoutLine: {'line': b'writing dependency_links to potamon_interfaces.egg-info/dependency_links.txt\n'}
+[0.389672] (potamon_interfaces) StdoutLine: {'line': b'writing top-level names to potamon_interfaces.egg-info/top_level.txt\n'}
+[0.399615] (-) TimerEvent: {}
+[0.456441] (potamon_interfaces) StdoutLine: {'line': b"reading manifest file 'potamon_interfaces.egg-info/SOURCES.txt'\n"}
+[0.457058] (potamon_interfaces) StdoutLine: {'line': b"writing manifest file 'potamon_interfaces.egg-info/SOURCES.txt'\n"}
+[0.498401] (potamon_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_potamon_interfaces_egg\n'}
+[0.499714] (-) TimerEvent: {}
+[0.521172] (potamon_interfaces) CommandEnded: {'returncode': 0}
+[0.522044] (potamon_interfaces) JobProgress: {'identifier': 'potamon_interfaces', 'progress': 'install'}
+[0.535124] (potamon_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jv4k/potamon_ws/src/build/potamon_interfaces'], 'cwd': '/home/jv4k/potamon_ws/src/build/potamon_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jv4k', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/jv4k/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/181/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'STM32CubeMX_PATH': '/home/jv4k/STM32CubeMX', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jv4k', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.96.4', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/181/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/jv4k/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/181/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/181/usr/share/code/code', 'MANAGERPID': '5356', 'SYSTEMD_EXEC_PID': '5700', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1524640', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jv4k', 'JOURNAL_STREAM': '9:36875', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'jv4k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JV4K-Ubuntu:@/tmp/.ICE-unix/5635,unix/JV4K-Ubuntu:/tmp/.ICE-unix/5635', 'GTK_EXE_PREFIX': '/snap/code/181/usr', 'INVOCATION_ID': '43c9fc0350874e65a061a72ba8d5dc38', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/181/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/jv4k/snap/code/181/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GHWR42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-12ab1a581d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/jv4k/snap/code/181/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jv4k/potamon_ws/src/build/potamon_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/jv4k/snap/code/181/.local/share:/home/jv4k/snap/code/181:/snap/code/181/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.548887] (potamon_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.549215] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/ament_index/resource_index/rosidl_interfaces/potamon_interfaces\n'}
+[0.549388] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/WheelStates.json\n'}
+[0.549534] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/SystemStatus.json\n'}
+[0.549752] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/WheelVelocities.json\n'}
+[0.550005] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/WheelAngles.json\n'}
+[0.550177] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/srv/SetControlMode.json\n'}
+[0.550460] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces\n'}
+[0.550634] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg\n'}
+[0.550791] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail\n'}
+[0.550948] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__functions.c\n'}
+[0.551107] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__functions.h\n'}
+[0.551457] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__type_support.h\n'}
+[0.551762] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__struct.h\n'}
+[0.552065] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__type_support.c\n'}
+[0.552407] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__functions.c\n'}
+[0.552699] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__description.c\n'}
+[0.552923] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__struct.h\n'}
+[0.553180] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__description.c\n'}
+[0.553530] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__description.c\n'}
+[0.553768] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__type_support.h\n'}
+[0.553991] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__struct.h\n'}
+[0.554172] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__type_support.h\n'}
+[0.554451] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__type_support.c\n'}
+[0.554681] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__functions.c\n'}
+[0.554852] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__struct.h\n'}
+[0.555167] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__type_support.h\n'}
+[0.555385] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__functions.h\n'}
+[0.555553] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__type_support.c\n'}
+[0.555714] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__type_support.c\n'}
+[0.555905] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__functions.c\n'}
+[0.556096] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__functions.h\n'}
+[0.556527] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__functions.h\n'}
+[0.556722] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__description.c\n'}
+[0.556915] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_velocities.h\n'}
+[0.557110] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_angles.h\n'}
+[0.557340] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_states.h\n'}
+[0.557537] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.557734] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/system_status.h\n'}
+[0.558000] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv\n'}
+[0.558520] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail\n'}
+[0.558754] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__type_support.c\n'}
+[0.558949] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__type_support.h\n'}
+[0.559119] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__description.c\n'}
+[0.559443] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__functions.h\n'}
+[0.559633] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__struct.h\n'}
+[0.559798] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__functions.c\n'}
+[0.559967] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/set_control_mode.h\n'}
+[0.560231] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/environment/library_path.sh\n'}
+[0.560481] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/environment/library_path.dsv\n'}
+[0.560651] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_generator_c.so\n'}
+[0.560818] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces\n'}
+[0.560985] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg\n'}
+[0.561290] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail\n'}
+[0.561483] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__rosidl_typesupport_fastrtps_c.h\n'}
+[0.561691] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.561851] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__rosidl_typesupport_fastrtps_c.h\n'}
+[0.562022] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_c.h\n'}
+[0.562270] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.562453] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv\n'}
+[0.562642] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail\n'}
+[0.562810] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[0.562976] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.563136] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces\n'}
+[0.563422] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg\n'}
+[0.563619] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail\n'}
+[0.563803] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_introspection_c.h\n'}
+[0.563973] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__type_support.c\n'}
+[0.564139] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__rosidl_typesupport_introspection_c.h\n'}
+[0.564380] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__type_support.c\n'}
+[0.564575] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__type_support.c\n'}
+[0.564766] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__rosidl_typesupport_introspection_c.h\n'}
+[0.565177] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__type_support.c\n'}
+[0.565353] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[0.565510] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.565663] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv\n'}
+[0.565849] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail\n'}
+[0.566006] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__type_support.c\n'}
+[0.566186] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__rosidl_typesupport_introspection_c.h\n'}
+[0.566368] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.566519] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_c.so\n'}
+[0.566669] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces\n'}
+[0.566819] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg\n'}
+[0.566975] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_angles.hpp\n'}
+[0.567127] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail\n'}
+[0.567310] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__builder.hpp\n'}
+[0.567472] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__traits.hpp\n'}
+[0.567631] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__traits.hpp\n'}
+[0.567805] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[0.567999] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__type_support.hpp\n'}
+[0.568249] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__traits.hpp\n'}
+[0.568489] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__type_support.hpp\n'}
+[0.568744] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__traits.hpp\n'}
+[0.568977] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__builder.hpp\n'}
+[0.569225] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__builder.hpp\n'}
+[0.569454] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__struct.hpp\n'}
+[0.569667] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__struct.hpp\n'}
+[0.569876] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__type_support.hpp\n'}
+[0.570086] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__builder.hpp\n'}
+[0.570337] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__struct.hpp\n'}
+[0.570503] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__struct.hpp\n'}
+[0.570663] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/system_status.hpp\n'}
+[0.570820] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.570980] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_states.hpp\n'}
+[0.571225] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_velocities.hpp\n'}
+[0.571407] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv\n'}
+[0.571594] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail\n'}
+[0.571755] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__type_support.hpp\n'}
+[0.571913] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__struct.hpp\n'}
+[0.572071] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__traits.hpp\n'}
+[0.572257] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__builder.hpp\n'}
+[0.572418] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/set_control_mode.hpp\n'}
+[0.572589] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces\n'}
+[0.572739] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg\n'}
+[0.572894] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail\n'}
+[0.573048] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/dds_fastrtps\n'}
+[0.573303] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.573490] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.573648] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.573819] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.573977] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.574132] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv\n'}
+[0.574332] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail\n'}
+[0.574490] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/dds_fastrtps\n'}
+[0.574644] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.574798] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.574952] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces\n'}
+[0.575107] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg\n'}
+[0.575305] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail\n'}
+[0.575463] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[0.575617] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__type_support.cpp\n'}
+[0.575774] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.575944] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.576116] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.576304] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__type_support.cpp\n'}
+[0.576462] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.576615] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__type_support.cpp\n'}
+[0.576767] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv\n'}
+[0.576923] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail\n'}
+[0.577080] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__type_support.cpp\n'}
+[0.577274] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.577439] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.577597] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.577752] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/environment/pythonpath.sh\n'}
+[0.577922] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/environment/pythonpath.dsv\n'}
+[0.578085] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces-0.0.0-py3.12.egg-info\n'}
+[0.578274] (potamon_interfaces) StdoutLine: {'line': b'-- Installing: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[0.578438] (potamon_interfaces) StdoutLine: {'line': b'-- Installing: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[0.578597] (potamon_interfaces) StdoutLine: {'line': b'-- Installing: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[0.578754] (potamon_interfaces) StdoutLine: {'line': b'-- Installing: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[0.578913] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces\n'}
+[0.579085] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/__init__.py\n'}
+[0.579298] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg\n'}
+[0.579462] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_angles_s.c\n'}
+[0.579622] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_states.py\n'}
+[0.579778] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/__init__.py\n'}
+[0.579935] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_velocities.py\n'}
+[0.580097] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_states_s.c\n'}
+[0.580291] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_angles.py\n'}
+[0.580479] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_system_status.py\n'}
+[0.580643] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_system_status_s.c\n'}
+[0.580831] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_velocities_s.c\n'}
+[0.580990] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[0.581172] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.581360] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/_potamon_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.581520] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/_potamon_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.581682] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv\n'}
+[0.581841] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv/__init__.py\n'}
+[0.582001] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv/_set_control_mode_s.c\n'}
+[0.582177] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv/_set_control_mode.py\n'}
+[0.582361] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_c.so\n'}
+[0.582535] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/_potamon_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.599827] (-) TimerEvent: {}
+[0.605795] (potamon_interfaces) StdoutLine: {'line': b"Listing '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces'...\n"}
+[0.606008] (potamon_interfaces) StdoutLine: {'line': b"Listing '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg'...\n"}
+[0.606116] (potamon_interfaces) StdoutLine: {'line': b"Listing '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv'...\n"}
+[0.612981] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[0.613782] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[0.614503] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_c.so\n'}
+[0.615199] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_generator_py.so\n'}
+[0.615672] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/WheelStates.idl\n'}
+[0.615808] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/SystemStatus.idl\n'}
+[0.615942] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/WheelVelocities.idl\n'}
+[0.616073] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/WheelAngles.idl\n'}
+[0.616233] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/srv/SetControlMode.idl\n'}
+[0.616367] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/WheelStates.msg\n'}
+[0.616490] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/SystemStatus.msg\n'}
+[0.616622] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/WheelVelocities.msg\n'}
+[0.616748] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/msg/WheelAngles.msg\n'}
+[0.616875] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/srv/SetControlMode.srv\n'}
+[0.617017] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/ament_index/resource_index/package_run_dependencies/potamon_interfaces\n'}
+[0.617199] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/ament_index/resource_index/parent_prefix_path/potamon_interfaces\n'}
+[0.617363] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/environment/ament_prefix_path.sh\n'}
+[0.617495] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.617625] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/environment/path.sh\n'}
+[0.617810] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/environment/path.dsv\n'}
+[0.617952] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/local_setup.bash\n'}
+[0.618071] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/local_setup.sh\n'}
+[0.618251] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/local_setup.zsh\n'}
+[0.618401] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/local_setup.dsv\n'}
+[0.618544] (potamon_interfaces) StdoutLine: {'line': b'-- Installing: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.dsv\n'}
+[0.618983] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/ament_index/resource_index/packages/potamon_interfaces\n'}
+[0.619287] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.619428] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.619691] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.619832] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.620142] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.620355] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.620729] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.620926] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.621205] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.621611] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.621812] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.621999] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.622163] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.622441] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.622572] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.622813] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.622944] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.623073] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.623240] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.623388] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.623513] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.623680] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.623902] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.624094] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.624323] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfacesConfig.cmake\n'}
+[0.624477] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfacesConfig-version.cmake\n'}
+[0.624599] (potamon_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.xml\n'}
+[0.629391] (potamon_interfaces) CommandEnded: {'returncode': 0}
+[0.653891] (potamon_interfaces) JobEnded: {'identifier': 'potamon_interfaces', 'rc': 0}
+[0.655216] (potamon-rpi) JobStarted: {'identifier': 'potamon-rpi'}
+[0.659037] (potamon_client) JobStarted: {'identifier': 'potamon_client'}
+[0.669861] (potamon-rpi) JobProgress: {'identifier': 'potamon-rpi', 'progress': 'cmake'}
+[0.670600] (potamon-rpi) JobProgress: {'identifier': 'potamon-rpi', 'progress': 'build'}
+[0.671341] (potamon-rpi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jv4k/potamon_ws/src/build/potamon-rpi', '--', '-j12', '-l12'], 'cwd': '/home/jv4k/potamon_ws/src/build/potamon-rpi', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jv4k', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/jv4k/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/181/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'STM32CubeMX_PATH': '/home/jv4k/STM32CubeMX', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jv4k', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.96.4', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/181/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/jv4k/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/181/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/181/usr/share/code/code', 'MANAGERPID': '5356', 'SYSTEMD_EXEC_PID': '5700', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1524640', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jv4k', 'JOURNAL_STREAM': '9:36875', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'jv4k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JV4K-Ubuntu:@/tmp/.ICE-unix/5635,unix/JV4K-Ubuntu:/tmp/.ICE-unix/5635', 'GTK_EXE_PREFIX': '/snap/code/181/usr', 'INVOCATION_ID': '43c9fc0350874e65a061a72ba8d5dc38', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/181/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/jv4k/snap/code/181/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GHWR42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-12ab1a581d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/jv4k/snap/code/181/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jv4k/potamon_ws/src/build/potamon-rpi', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/jv4k/snap/code/181/.local/share:/home/jv4k/snap/code/181:/snap/code/181/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.674780] (potamon_client) JobProgress: {'identifier': 'potamon_client', 'progress': 'cmake'}
+[0.675404] (potamon_client) Command: {'cmd': ['/usr/bin/cmake', '/home/jv4k/potamon_ws/src/potamon_client', '-DCMAKE_INSTALL_PREFIX=/home/jv4k/potamon_ws/src/install/potamon_client'], 'cwd': '/home/jv4k/potamon_ws/src/build/potamon_client', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jv4k', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/jv4k/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/181/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'STM32CubeMX_PATH': '/home/jv4k/STM32CubeMX', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jv4k', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.96.4', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/181/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/jv4k/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/181/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/181/usr/share/code/code', 'MANAGERPID': '5356', 'SYSTEMD_EXEC_PID': '5700', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1524640', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jv4k', 'JOURNAL_STREAM': '9:36875', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'jv4k', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/JV4K-Ubuntu:@/tmp/.ICE-unix/5635,unix/JV4K-Ubuntu:/tmp/.ICE-unix/5635', 'GTK_EXE_PREFIX': '/snap/code/181/usr', 'INVOCATION_ID': '43c9fc0350874e65a061a72ba8d5dc38', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/181/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/jv4k/snap/code/181/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GHWR42', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-12ab1a581d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/jv4k/snap/code/181/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jv4k/potamon_ws/src/build/potamon_client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/jv4k/snap/code/181/.local/share:/home/jv4k/snap/code/181:/snap/code/181/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/jv4k/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.699971] (-) TimerEvent: {}
+[0.718665] (potamon-rpi) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.741181] (potamon_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.800093] (-) TimerEvent: {}
+[0.804444] (potamon_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.833772] (potamon_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.900248] (-) TimerEvent: {}
+[0.965103] (potamon-rpi) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.968555] (potamon_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.977855] (potamon_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.978286] (potamon_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.978611] (potamon_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.994070] (potamon_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.000350] (-) TimerEvent: {}
+[1.011820] (potamon-rpi) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.021777] (potamon-rpi) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.033792] (potamon-rpi) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.047705] (potamon-rpi) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100509] (-) TimerEvent: {}
+[1.114210] (potamon-rpi) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.115700] (potamon-rpi) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.146035] (potamon_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.158196] (potamon_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.158670] (potamon_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.159110] (potamon_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.162692] (potamon_client) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.196576] (potamon-rpi) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.200638] (-) TimerEvent: {}
+[1.266687] (potamon-rpi) StdoutLine: {'line': b'-- Found potamon_interfaces: 0.0.0 (/home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake)\n'}
+[1.282972] (potamon-rpi) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.300734] (-) TimerEvent: {}
+[1.334904] (potamon_client) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.347031] (potamon-rpi) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.373642] (potamon-rpi) StdoutLine: {'line': b'-- Found tf2: 0.36.9 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.378054] (potamon-rpi) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[1.400837] (-) TimerEvent: {}
+[1.475436] (potamon_client) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.497751] (potamon-rpi) StdoutLine: {'line': b'-- Configuring done (0.8s)\n'}
+[1.500964] (-) TimerEvent: {}
+[1.514457] (potamon-rpi) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.519308] (potamon-rpi) StdoutLine: {'line': b'-- Build files have been written to: /home/jv4k/potamon_ws/src/build/potamon-rpi\n'}
+[1.522278] (potamon_client) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.538276] (potamon_client) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.556326] (potamon_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.578070] (potamon_client) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.600825] (potamon-rpi) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o\x1b[0m\n'}
+[1.601001] (-) TimerEvent: {}
+[1.667578] (potamon_client) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.671260] (potamon_client) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.701190] (-) TimerEvent: {}
+[1.781959] (potamon_client) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.801293] (-) TimerEvent: {}
+[1.807342] (potamon_client) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.837802] (potamon_client) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.901427] (-) TimerEvent: {}
+[1.919761] (potamon_client) StdoutLine: {'line': b'-- Found potamon_interfaces: 0.0.0 (/home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake)\n'}
+[1.938030] (potamon_client) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.001567] (-) TimerEvent: {}
+[2.007624] (potamon_client) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.035490] (potamon_client) StdoutLine: {'line': b'-- Found tf2: 0.36.9 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[2.041685] (potamon_client) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[2.058824] (potamon_client) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):\n'}
+[2.059244] (potamon_client) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[2.059430] (potamon_client) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.059592] (potamon_client) StderrLine: {'line': b'  CMakeLists.txt:30 (ament_target_dependencies)\n'}
+[2.059766] (potamon_client) StderrLine: {'line': b'\n'}
+[2.059919] (potamon_client) StderrLine: {'line': b'\x1b[0m\n'}
+[2.060074] (potamon_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.072738] (potamon_client) CommandEnded: {'returncode': 1}
+[2.095933] (potamon_client) JobEnded: {'identifier': 'potamon_client', 'rc': 1}
+[2.101707] (-) TimerEvent: {}
+[2.202105] (-) TimerEvent: {}
+[2.302554] (-) TimerEvent: {}
+[2.402944] (-) TimerEvent: {}
+[2.503427] (-) TimerEvent: {}
+[2.603906] (-) TimerEvent: {}
+[2.704393] (-) TimerEvent: {}
+[2.804843] (-) TimerEvent: {}
+[2.905255] (-) TimerEvent: {}
+[3.005693] (-) TimerEvent: {}
+[3.106135] (-) TimerEvent: {}
+[3.206520] (-) TimerEvent: {}
+[3.306854] (-) TimerEvent: {}
+[3.407362] (-) TimerEvent: {}
+[3.507841] (-) TimerEvent: {}
+[3.608352] (-) TimerEvent: {}
+[3.708828] (-) TimerEvent: {}
+[3.809312] (-) TimerEvent: {}
+[3.909799] (-) TimerEvent: {}
+[4.010286] (-) TimerEvent: {}
+[4.110801] (-) TimerEvent: {}
+[4.211237] (-) TimerEvent: {}
+[4.311631] (-) TimerEvent: {}
+[4.412018] (-) TimerEvent: {}
+[4.512471] (-) TimerEvent: {}
+[4.612867] (-) TimerEvent: {}
+[4.713222] (-) TimerEvent: {}
+[4.813650] (-) TimerEvent: {}
+[4.914092] (-) TimerEvent: {}
+[5.014560] (-) TimerEvent: {}
+[5.114972] (-) TimerEvent: {}
+[5.215406] (-) TimerEvent: {}
+[5.315794] (-) TimerEvent: {}
+[5.416180] (-) TimerEvent: {}
+[5.516675] (-) TimerEvent: {}
+[5.617115] (-) TimerEvent: {}
+[5.717561] (-) TimerEvent: {}
+[5.817993] (-) TimerEvent: {}
+[5.918474] (-) TimerEvent: {}
+[6.018895] (-) TimerEvent: {}
+[6.119346] (-) TimerEvent: {}
+[6.219753] (-) TimerEvent: {}
+[6.320077] (-) TimerEvent: {}
+[6.420443] (-) TimerEvent: {}
+[6.520897] (-) TimerEvent: {}
+[6.621383] (-) TimerEvent: {}
+[6.721780] (-) TimerEvent: {}
+[6.822076] (-) TimerEvent: {}
+[6.922539] (-) TimerEvent: {}
+[7.022991] (-) TimerEvent: {}
+[7.123450] (-) TimerEvent: {}
+[7.223877] (-) TimerEvent: {}
+[7.324361] (-) TimerEvent: {}
+[7.424803] (-) TimerEvent: {}
+[7.525279] (-) TimerEvent: {}
+[7.625649] (-) TimerEvent: {}
+[7.725883] (-) TimerEvent: {}
+[7.826166] (-) TimerEvent: {}
+[7.926463] (-) TimerEvent: {}
+[8.026888] (-) TimerEvent: {}
+[8.127377] (-) TimerEvent: {}
+[8.227837] (-) TimerEvent: {}
+[8.328289] (-) TimerEvent: {}
+[8.428710] (-) TimerEvent: {}
+[8.529177] (-) TimerEvent: {}
+[8.629602] (-) TimerEvent: {}
+[8.730042] (-) TimerEvent: {}
+[8.830491] (-) TimerEvent: {}
+[8.930940] (-) TimerEvent: {}
+[9.031409] (-) TimerEvent: {}
+[9.131804] (-) TimerEvent: {}
+[9.232076] (-) TimerEvent: {}
+[9.332370] (-) TimerEvent: {}
+[9.432693] (-) TimerEvent: {}
+[9.533165] (-) TimerEvent: {}
+[9.633616] (-) TimerEvent: {}
+[9.734065] (-) TimerEvent: {}
+[9.834549] (-) TimerEvent: {}
+[9.934981] (-) TimerEvent: {}
+[10.035457] (-) TimerEvent: {}
+[10.135884] (-) TimerEvent: {}
+[10.236373] (-) TimerEvent: {}
+[10.336719] (-) TimerEvent: {}
+[10.437107] (-) TimerEvent: {}
+[10.537618] (-) TimerEvent: {}
+[10.638025] (-) TimerEvent: {}
+[10.738338] (-) TimerEvent: {}
+[10.838644] (-) TimerEvent: {}
+[10.939061] (-) TimerEvent: {}
+[11.039535] (-) TimerEvent: {}
+[11.140006] (-) TimerEvent: {}
+[11.240468] (-) TimerEvent: {}
+[11.340893] (-) TimerEvent: {}
+[11.441382] (-) TimerEvent: {}
+[11.541805] (-) TimerEvent: {}
+[11.642225] (-) TimerEvent: {}
+[11.742516] (-) TimerEvent: {}
+[11.842932] (-) TimerEvent: {}
+[11.943398] (-) TimerEvent: {}
+[12.043886] (-) TimerEvent: {}
+[12.144334] (-) TimerEvent: {}
+[12.244709] (-) TimerEvent: {}
+[12.345103] (-) TimerEvent: {}
+[12.445583] (-) TimerEvent: {}
+[12.546006] (-) TimerEvent: {}
+[12.646449] (-) TimerEvent: {}
+[12.746913] (-) TimerEvent: {}
+[12.847392] (-) TimerEvent: {}
+[12.947833] (-) TimerEvent: {}
+[13.048254] (-) TimerEvent: {}
+[13.148675] (-) TimerEvent: {}
+[13.249101] (-) TimerEvent: {}
+[13.349588] (-) TimerEvent: {}
+[13.450082] (-) TimerEvent: {}
+[13.550676] (-) TimerEvent: {}
+[13.651137] (-) TimerEvent: {}
+[13.751539] (-) TimerEvent: {}
+[13.851919] (-) TimerEvent: {}
+[13.952334] (-) TimerEvent: {}
+[14.052793] (-) TimerEvent: {}
+[14.153254] (-) TimerEvent: {}
+[14.253686] (-) TimerEvent: {}
+[14.354045] (-) TimerEvent: {}
+[14.454528] (-) TimerEvent: {}
+[14.554927] (-) TimerEvent: {}
+[14.655257] (-) TimerEvent: {}
+[14.755675] (-) TimerEvent: {}
+[14.856071] (-) TimerEvent: {}
+[14.956395] (-) TimerEvent: {}
+[15.056873] (-) TimerEvent: {}
+[15.157236] (-) TimerEvent: {}
+[15.257580] (-) TimerEvent: {}
+[15.357955] (-) TimerEvent: {}
+[15.458417] (-) TimerEvent: {}
+[15.558872] (-) TimerEvent: {}
+[15.659359] (-) TimerEvent: {}
+[15.759807] (-) TimerEvent: {}
+[15.860263] (-) TimerEvent: {}
+[15.960685] (-) TimerEvent: {}
+[16.061084] (-) TimerEvent: {}
+[16.161409] (-) TimerEvent: {}
+[16.261707] (-) TimerEvent: {}
+[16.362030] (-) TimerEvent: {}
+[16.462356] (-) TimerEvent: {}
+[16.562819] (-) TimerEvent: {}
+[16.663275] (-) TimerEvent: {}
+[16.763665] (-) TimerEvent: {}
+[16.863957] (-) TimerEvent: {}
+[16.964406] (-) TimerEvent: {}
+[17.064832] (-) TimerEvent: {}
+[17.165288] (-) TimerEvent: {}
+[17.265760] (-) TimerEvent: {}
+[17.366260] (-) TimerEvent: {}
+[17.466712] (-) TimerEvent: {}
+[17.567144] (-) TimerEvent: {}
+[17.667627] (-) TimerEvent: {}
+[17.768047] (-) TimerEvent: {}
+[17.868514] (-) TimerEvent: {}
+[17.969001] (-) TimerEvent: {}
+[18.069566] (-) TimerEvent: {}
+[18.169935] (-) TimerEvent: {}
+[18.270236] (-) TimerEvent: {}
+[18.370670] (-) TimerEvent: {}
+[18.471215] (-) TimerEvent: {}
+[18.571685] (-) TimerEvent: {}
+[18.672168] (-) TimerEvent: {}
+[18.733004] (potamon-rpi) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable potamon_rpi\x1b[0m\n'}
+[18.772302] (-) TimerEvent: {}
+[18.872734] (-) TimerEvent: {}
+[18.973567] (-) TimerEvent: {}
+[19.074064] (-) TimerEvent: {}
+[19.174623] (-) TimerEvent: {}
+[19.275160] (-) TimerEvent: {}
+[19.375602] (-) TimerEvent: {}
+[19.476048] (-) TimerEvent: {}
+[19.576499] (-) TimerEvent: {}
+[19.676929] (-) TimerEvent: {}
+[19.745852] (potamon-rpi) StdoutLine: {'line': b'[100%] Built target potamon_rpi\n'}
+[19.760389] (potamon-rpi) JobEnded: {'identifier': 'potamon-rpi', 'rc': 'SIGINT'}
+[19.771588] (-) EventReactorShutdown: {}

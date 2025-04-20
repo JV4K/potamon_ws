@@ -1,0 +1,50 @@
+[0.013s] Invoking command in '/home/jv4k/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12
+[0.056s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.323s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.371s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.382s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.481s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.482s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.626s] -- Found potamon_interfaces: 0.0.0 (/home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake)
+[0.643s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.707s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.733s] -- Found tf2: 0.36.9 (/opt/ros/jazzy/share/tf2/cmake)
+[0.738s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.866s] -- Configuring done (0.8s)
+[0.883s] -- Generating done (0.0s)
+[0.888s] -- Build files have been written to: /home/jv4k/potamon_ws/src/build/potamon-rpi
+[0.951s] [ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[3.340s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In constructor ‘[01m[KPotamonNode::[01;32m[KPotamonNode[m[K()[m[K’:
+[3.340s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:58:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[3.340s]    99 |             std::bind(&PotamonNode::handleSetMode, this, [01;31m[K_1[m[K, _2));
+[3.341s]       |                                                          [01;31m[K^~[m[K
+[3.341s]       |                                                          [32m[Kstd::placeholders::_1[m[K
+[3.341s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+[3.342s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[3.342s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.342s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.342s]                  from [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:1[m[K:
+[3.343s] [01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[3.343s]   294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+[3.343s]       |                                                [01;36m[K^~[m[K
+[3.343s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:62:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_2[m[K’?
+[3.344s]    99 |             std::bind(&PotamonNode::handleSetMode, this, _1, [01;31m[K_2[m[K));
+[3.344s]       |                                                              [01;31m[K^~[m[K
+[3.344s]       |                                                              [32m[Kstd::placeholders::_2[m[K
+[3.344s] [01m[K/usr/include/c++/13/functional:295:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_2[m[K’ declared here
+[3.344s]   295 |     _GLIBCXX_PLACEHOLDER const _Placeholder<2> [01;36m[K_2[m[K;
+[3.345s]       |                                                [01;36m[K^~[m[K
+[3.364s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KhandleSetMode[m[K(potamon_interfaces::srv::SetControlMode_Request_<std::allocator<void> >::SharedPtr, potamon_interfaces::srv::SetControlMode_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.364s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:371:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_mutex_[m[K’ was not declared in this scope
+[3.365s]   371 |         std::lock_guard<std::mutex> lock([01;31m[Kcontrol_mutex_[m[K);
+[3.365s]       |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.374s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:441:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode_[m[K’ was not declared in this scope
+[3.375s]   441 |         [01;31m[Kcurrent_mode_[m[K = req->mode;
+[3.375s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[8.529s] gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+[8.529s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+[8.530s] gmake: *** [Makefile:146: all] Error 2
+[8.534s] Invoked command in '/home/jv4k/potamon_ws/src/build/potamon-rpi' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12

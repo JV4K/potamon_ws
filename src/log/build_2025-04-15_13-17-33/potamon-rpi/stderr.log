@@ -1,0 +1,51 @@
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:367:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleSetMode[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  367 |     void [01;31m[KPotamonNode[m[K::handleSetMode(
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:444:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleResetOdometry[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  444 |     void [01;31m[KPotamonNode[m[K::handleResetOdometry(
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:453:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleClearFault[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  453 |     void [01;31m[KPotamonNode[m[K::handleClearFault(
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:462:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleGlobDomOn[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  462 |     void [01;31m[KPotamonNode[m[K::handleGlobDomOn(
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:471:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleGlobDomOff[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  471 |     void [01;31m[KPotamonNode[m[K::handleGlobDomOff(
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:480:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandlePidHeadEnable[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  480 |     void [01;31m[KPotamonNode[m[K::handlePidHeadEnable(
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:489:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandlePidHeadDisable[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  489 |     void [01;31m[KPotamonNode[m[K::handlePidHeadDisable(
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In constructor ‘[01m[KPotamonNode::[01;32m[KPotamonNode[m[K()[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:58:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   99 |             std::bind(&PotamonNode::handleSetMode, this, [01;31m[K_1[m[K, _2));
+      |                                                          [01;31m[K^~[m[K
+      |                                                          [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:1[m[K:
+[01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                                [01;36m[K^~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:62:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_2[m[K’?
+   99 |             std::bind(&PotamonNode::handleSetMode, this, _1, [01;31m[K_2[m[K));
+      |                                                              [01;31m[K^~[m[K
+      |                                                              [32m[Kstd::placeholders::_2[m[K
+[01m[K/usr/include/c++/13/functional:295:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_2[m[K’ declared here
+  295 |     _GLIBCXX_PLACEHOLDER const _Placeholder<2> [01;36m[K_2[m[K;
+      |                                                [01;36m[K^~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KhandleSetMode[m[K(potamon_interfaces::srv::SetControlMode_Request_<std::allocator<void> >::SharedPtr, potamon_interfaces::srv::SetControlMode_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:371:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_mutex_[m[K’ was not declared in this scope
+  371 |         std::lock_guard<std::mutex> lock([01;31m[Kcontrol_mutex_[m[K);
+      |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:441:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode_[m[K’ was not declared in this scope
+  441 |         [01;31m[Kcurrent_mode_[m[K = req->mode;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

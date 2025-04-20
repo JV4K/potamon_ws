@@ -1,0 +1,27 @@
+[0.017s] Invoking command in '/home/jv4k/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[2.107s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:187:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kpotamon_rpi[m[K’ was not declared in this scope
+[2.108s]   187 |     rclcpp::Publisher<[01;31m[Kpotamon_rpi[m[K::msg::WheelStates>::SharedPtr wheel_state_pub;
+[2.108s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[2.108s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:187:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.108s]   187 |     rclcpp::Publisher<potamon_rpi::msg::WheelStates[01;31m[K>[m[K::SharedPtr wheel_state_pub;
+[2.108s]       |                                                    [01;31m[K^[m[K
+[2.109s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:187:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.109s]   187 |     rclcpp::Publisher<potamon_rpi::msg::WheelStates>::[01;31m[KSharedPtr[m[K wheel_state_pub;
+[2.109s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[2.109s]       |                                                                [32m[K;[m[K
+[2.110s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:187:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_state_pub[m[K’ does not name a type
+[2.110s]   187 |     rclcpp::Publisher<potamon_rpi::msg::WheelStates>::SharedPtr [01;31m[Kwheel_state_pub[m[K;
+[2.111s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.119s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In constructor ‘[01m[KPotamonNode::[01;32m[KPotamonNode[m[K()[m[K’:
+[2.120s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_state_pub[m[K’ was not declared in this scope
+[2.120s]    42 |         [01;31m[Kwheel_state_pub[m[K = this->create_publisher<potamon_interfaces::msg::WheelStates>(
+[2.120s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.132s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KcomLoop[m[K()[m[K’:
+[2.133s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:158:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_state_pub[m[K’ was not declared in this scope
+[2.133s]   158 |                 [01;31m[Kwheel_state_pub[m[K->publish(wh_states_msg);
+[2.133s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.939s] gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+[2.940s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+[2.940s] gmake: *** [Makefile:146: all] Error 2
+[2.943s] Invoked command in '/home/jv4k/potamon_ws/src/build/potamon-rpi' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12

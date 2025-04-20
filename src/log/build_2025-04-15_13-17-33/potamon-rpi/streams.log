@@ -1,0 +1,71 @@
+[0.013s] Invoking command in '/home/jv4k/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12
+[0.044s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.293s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.322s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.332s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.426s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.428s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.505s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.572s] -- Found potamon_interfaces: 0.0.0 (/home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake)
+[0.588s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.650s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.675s] -- Found tf2: 0.36.9 (/opt/ros/jazzy/share/tf2/cmake)
+[0.683s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.816s] -- Configuring done (0.8s)
+[0.831s] -- Generating done (0.0s)
+[0.836s] -- Build files have been written to: /home/jv4k/potamon_ws/src/build/potamon-rpi
+[0.931s] [ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[3.093s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:367:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleSetMode[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.093s]   367 |     void [01;31m[KPotamonNode[m[K::handleSetMode(
+[3.093s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[3.093s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:444:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleResetOdometry[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.094s]   444 |     void [01;31m[KPotamonNode[m[K::handleResetOdometry(
+[3.094s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[3.094s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:453:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleClearFault[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.094s]   453 |     void [01;31m[KPotamonNode[m[K::handleClearFault(
+[3.094s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[3.095s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:462:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleGlobDomOn[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.095s]   462 |     void [01;31m[KPotamonNode[m[K::handleGlobDomOn(
+[3.095s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[3.095s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:471:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandleGlobDomOff[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.096s]   471 |     void [01;31m[KPotamonNode[m[K::handleGlobDomOff(
+[3.096s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[3.096s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:480:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandlePidHeadEnable[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.096s]   480 |     void [01;31m[KPotamonNode[m[K::handlePidHeadEnable(
+[3.097s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[3.097s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:489:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPotamonNode::[m[K’ on member ‘[01m[KhandlePidHeadDisable[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.097s]   489 |     void [01;31m[KPotamonNode[m[K::handlePidHeadDisable(
+[3.097s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[3.226s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In constructor ‘[01m[KPotamonNode::[01;32m[KPotamonNode[m[K()[m[K’:
+[3.226s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:58:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[3.226s]    99 |             std::bind(&PotamonNode::handleSetMode, this, [01;31m[K_1[m[K, _2));
+[3.226s]       |                                                          [01;31m[K^~[m[K
+[3.227s]       |                                                          [32m[Kstd::placeholders::_1[m[K
+[3.227s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+[3.227s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[3.227s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.227s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.228s]                  from [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:1[m[K:
+[3.228s] [01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[3.228s]   294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+[3.228s]       |                                                [01;36m[K^~[m[K
+[3.228s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:99:62:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_2[m[K’?
+[3.228s]    99 |             std::bind(&PotamonNode::handleSetMode, this, _1, [01;31m[K_2[m[K));
+[3.228s]       |                                                              [01;31m[K^~[m[K
+[3.228s]       |                                                              [32m[Kstd::placeholders::_2[m[K
+[3.228s] [01m[K/usr/include/c++/13/functional:295:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_2[m[K’ declared here
+[3.229s]   295 |     _GLIBCXX_PLACEHOLDER const _Placeholder<2> [01;36m[K_2[m[K;
+[3.229s]       |                                                [01;36m[K^~[m[K
+[3.250s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KhandleSetMode[m[K(potamon_interfaces::srv::SetControlMode_Request_<std::allocator<void> >::SharedPtr, potamon_interfaces::srv::SetControlMode_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.250s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:371:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_mutex_[m[K’ was not declared in this scope
+[3.250s]   371 |         std::lock_guard<std::mutex> lock([01;31m[Kcontrol_mutex_[m[K);
+[3.250s]       |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.259s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:441:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode_[m[K’ was not declared in this scope
+[3.259s]   441 |         [01;31m[Kcurrent_mode_[m[K = req->mode;
+[3.259s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[8.414s] gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+[8.415s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+[8.415s] gmake: *** [Makefile:146: all] Error 2
+[8.421s] Invoked command in '/home/jv4k/potamon_ws/src/build/potamon-rpi' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12

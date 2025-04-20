@@ -1,0 +1,10 @@
+/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader/CMakeFiles/uninstall.dir
+/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader/CMakeFiles/xbox_gamepad_reader_uninstall.dir
+/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader/CMakeFiles/xbox_gamepad_reader.dir
+/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader/CMakeFiles/test.dir
+/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader/CMakeFiles/edit_cache.dir
+/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader/CMakeFiles/rebuild_cache.dir
+/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader/CMakeFiles/list_install_components.dir
+/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader/CMakeFiles/install.dir
+/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader/CMakeFiles/install/local.dir
+/home/jv4k/potamon_ws/src/build/xbox_gamepad_reader/CMakeFiles/install/strip.dir

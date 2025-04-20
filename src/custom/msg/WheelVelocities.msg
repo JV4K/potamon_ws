@@ -1,0 +1,1 @@
+float32[4] velocities  # Angular velocities (rad/s) for 4 wheels

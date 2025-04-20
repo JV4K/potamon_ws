@@ -1,0 +1,56 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found potamon_interfaces: 0.0.0 (/home/jv4k/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tf2: 0.36.9 (/opt/ros/jazzy/share/tf2/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jv4k/potamon_ws/src/build/potamon-rpi
+[ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:40:27:[m[K [01;31m[Kerror: [m[K‘[01m[KSTANDBY[m[K’ was not declared in this scope
+   40 | VCP_mode_cmd_t mid_mode = [01;31m[KSTANDBY[m[K;
+      |                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In constructor ‘[01m[KPotamonNode::[01;32m[KPotamonNode[m[K()[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:71:37:[m[K [01;31m[Kerror: [m[K‘[01m[KvelocityCallback[m[K’ is not a member of ‘[01m[KPotamonNode[m[K’
+   71 |             std::bind(&PotamonNode::[01;31m[KvelocityCallback[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:76:37:[m[K [01;31m[Kerror: [m[K‘[01m[KwheelVelocityCallback[m[K’ is not a member of ‘[01m[KPotamonNode[m[K’
+   76 |             std::bind(&PotamonNode::[01;31m[KwheelVelocityCallback[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:79:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_ang_cmd_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Kwheel_vel_cmd_sub[m[K’?
+   79 |         [01;31m[Kwheel_ang_cmd_sub[m[K = this->create_subscription<potamon_interfaces::msg::WheelAngles>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kwheel_vel_cmd_sub[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:82:37:[m[K [01;31m[Kerror: [m[K‘[01m[KwheelAngleCallback[m[K’ is not a member of ‘[01m[KPotamonNode[m[K’
+   82 |             std::bind(&PotamonNode::[01;31m[KwheelAngleCallback[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kheartbeat_sub[m[K’ was not declared in this scope
+   84 |         [01;31m[Kheartbeat_sub[m[K = this->create_subscription<std_msgs::msg::Empty>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:84:66:[m[K [01;31m[Kerror: [m[K‘[01m[KEmpty[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Krclcpp::Empty[m[K’?
+   84 |         heartbeat_sub = this->create_subscription<std_msgs::msg::[01;31m[KEmpty[m[K>(
+      |                                                                  [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:39[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp:28:3:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Empty[m[K’ declared here
+   28 |   [01;36m[KEmpty[m[K,  //<! Kind used when trying to wait on an empty wait set.
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:87:37:[m[K [01;31m[Kerror: [m[K‘[01m[KheartbeatCallback[m[K’ is not a member of ‘[01m[KPotamonNode[m[K’
+   87 |             std::bind(&PotamonNode::[01;31m[KheartbeatCallback[m[K, this, std::placeholders::_1));
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

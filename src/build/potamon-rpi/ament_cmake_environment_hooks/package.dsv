@@ -1,0 +1,4 @@
+source;share/potamon-rpi/local_setup.bash
+source;share/potamon-rpi/local_setup.dsv
+source;share/potamon-rpi/local_setup.sh
+source;share/potamon-rpi/local_setup.zsh

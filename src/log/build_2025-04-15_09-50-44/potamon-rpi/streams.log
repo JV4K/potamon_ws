@@ -1,0 +1,10 @@
+[0.016s] Invoking command in '/home/jv4k/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[2.215s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KcomLoop[m[K()[m[K’:
+[2.215s] [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:163:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_msg[m[K’ was not declared in this scope
+[2.215s]   163 |                 [01;31m[Kodom_msg[m[K.header.stamp = this->now();
+[2.215s]       |                 [01;31m[K^~~~~~~~[m[K
+[3.786s] gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+[3.786s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+[3.786s] gmake: *** [Makefile:146: all] Error 2
+[3.789s] Invoked command in '/home/jv4k/potamon_ws/src/build/potamon-rpi' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12

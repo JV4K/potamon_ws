@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from potamon_interfaces/srv/SetControlMode.srv
+// generated code does not contain a copyright notice
+
+
+module potamon_interfaces {
+  module srv {
+    module SetControlMode_Request_Constants {
+      @verbatim (language="comment", text=
+        "Стоп")
+      const uint8 MODE_IDLE = 0;
+      @verbatim (language="comment", text=
+        "Управление скоростью платформы (vx, vy, wz)")
+      const uint8 MODE_VELOCITY = 1;
+      @verbatim (language="comment", text=
+        "Траектория ...")
+      const uint8 MODE_TRAJECTORY = 2;
+      @verbatim (language="comment", text=
+        "Управление скоростями колес")
+      const uint8 MODE_WHEELS_VELOCITY = 3;
+      @verbatim (language="comment", text=
+        "Управление углами колес")
+      const uint8 MODE_WHEELS_ANGLE = 4;
+    };
+    struct SetControlMode_Request {
+      @verbatim (language="comment", text=
+        "Requested control mode (use the constants above)")
+      uint8 mode;
+    };
+    struct SetControlMode_Response {
+      @verbatim (language="comment", text=
+        "True if mode switch succeeded")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Status/error message")
+      string message;
+    };
+  };
+};

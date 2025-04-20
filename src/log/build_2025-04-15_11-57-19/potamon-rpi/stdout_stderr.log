@@ -1,0 +1,120 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:308:49:[m[K [01;31m[Kerror: [m[K‘[01m[KEmpty[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+  308 |     void heartbeatCallback(const std_msgs::msg::[01;31m[KEmpty[m[K::SharedPtr msg){
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:308:66:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  308 |     void heartbeatCallback(const std_msgs::msg::Empty::SharedPtr [01;31m[Kmsg[m[K){
+      |                                                                  [01;31m[K^~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:308:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  308 |     void heartbeatCallback[34m[K([m[Kconst std_msgs::msg::Empty::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K){
+      |                           [34m[K~[m[K                                     [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                                 [32m[K)[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:308:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  308 |     void heartbeatCallback(const std_msgs::msg::Empty::[01;31m[KSharedPtr[m[K msg){
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:308:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+  308 |     void heartbeatCallback(const std_msgs::msg::Empty::SharedPtr [01;31m[Kmsg[m[K){
+      |                                                                  [01;31m[K^~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:332:41:[m[K [01;31m[Kerror: [m[K‘[01m[KEmpty[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Krclcpp::Empty[m[K’?
+  332 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KEmpty[m[K>::SharedPtr heartbeat_sub;
+      |                                         [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collection.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:39[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp:28:3:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Empty[m[K’ declared here
+   28 |   [01;36m[KEmpty[m[K,  //<! Kind used when trying to wait on an empty wait set.
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:332:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  332 |     rclcpp::Subscription<std_msgs::msg::Empty[01;31m[K>[m[K::SharedPtr heartbeat_sub;
+      |                                              [01;31m[K^[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:332:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:332:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:332:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:332:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  332 |     rclcpp::Subscription<std_msgs::msg::Empty>::[01;31m[KSharedPtr[m[K heartbeat_sub;
+      |                                                 [01;31m[K^~~~~~~~~[m[K
+      |                                                          [32m[K;[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:332:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kheartbeat_sub[m[K’ does not name a type
+  332 |     rclcpp::Subscription<std_msgs::msg::Empty>::SharedPtr [01;31m[Kheartbeat_sub[m[K;
+      |                                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In constructor ‘[01m[KPotamonNode::[01;32m[KPotamonNode[m[K()[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kheartbeat_sub[m[K’ was not declared in this scope
+   84 |         [01;31m[Kheartbeat_sub[m[K = this->create_subscription<std_msgs::msg::Empty>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:84:66:[m[K [01;31m[Kerror: [m[K‘[01m[KEmpty[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Krclcpp::Empty[m[K’?
+   84 |         heartbeat_sub = this->create_subscription<std_msgs::msg::[01;31m[KEmpty[m[K>(
+      |                                                                  [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp:28:3:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Empty[m[K’ declared here
+   28 |   [01;36m[KEmpty[m[K,  //<! Kind used when trying to wait on an empty wait set.
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:84:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPotamonNode::create_subscription<<expression error> >(const char [11], rclcpp::QoS, std::_Bind_helper<false, void (PotamonNode::*)(...), PotamonNode*, const std::_Placeholder<1>&>::type)[m[K’
+   84 |         heartbeat_sub = [01;31m[Kthis->create_subscription<std_msgs::msg::Empty>([m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   85 | [01;31m[K            "/heartbeat",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~[m[K                                               
+   86 | [01;31m[K            rclcpp::QoS(10),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~[m[K                                            
+   87 | [01;31m[K            std::bind(&PotamonNode::heartbeatCallback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:84:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   84 |         heartbeat_sub = [01;31m[Kthis->create_subscription<std_msgs::msg::Empty>([m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   85 | [01;31m[K            "/heartbeat",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~[m[K                                               
+   86 | [01;31m[K            rclcpp::QoS(10),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~[m[K                                            
+   87 | [01;31m[K            std::bind(&PotamonNode::heartbeatCallback, this, std::placeholders::_1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KwheelVelocityCallback[m[K(potamon_interfaces::msg::WheelVelocities_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:285:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelVelocities_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelVelocities_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kvelocities[m[K’
+  285 |         ptm_vcp_host.M1_VEL_TASK = (int16_t)(msg.[01;31m[Kvelocities[m[K[0] * 512.0f);
+      |                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:286:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelVelocities_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelVelocities_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kvelocities[m[K’
+  286 |         ptm_vcp_host.M2_VEL_TASK = (int16_t)(msg.[01;31m[Kvelocities[m[K[1] * 512.0f);
+      |                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:287:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelVelocities_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelVelocities_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kvelocities[m[K’
+  287 |         ptm_vcp_host.M3_VEL_TASK = (int16_t)(msg.[01;31m[Kvelocities[m[K[2] * 512.0f);
+      |                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:288:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelVelocities_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelVelocities_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kvelocities[m[K’
+  288 |         ptm_vcp_host.M4_VEL_TASK = (int16_t)(msg.[01;31m[Kvelocities[m[K[3] * 512.0f);
+      |                                                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KwheelAngleCallback[m[K(potamon_interfaces::msg::WheelAngles_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:297:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelAngles_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelAngles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangles[m[K’
+  297 |         ptm_vcp_host.M1_ANG_TASK = (int32_t)(msg.[01;31m[Kangles[m[K[0] * 1024.0f);
+      |                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:298:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelAngles_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelAngles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangles[m[K’
+  298 |         ptm_vcp_host.M2_ANG_TASK = (int32_t)(msg.[01;31m[Kangles[m[K[1] * 1024.0f);
+      |                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:299:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelAngles_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelAngles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangles[m[K’
+  299 |         ptm_vcp_host.M3_ANG_TASK = (int32_t)(msg.[01;31m[Kangles[m[K[2] * 1024.0f);
+      |                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:300:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelAngles_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelAngles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangles[m[K’
+  300 |         ptm_vcp_host.M4_ANG_TASK = (int32_t)(msg.[01;31m[Kangles[m[K[3] * 1024.0f);
+      |                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:302:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelAngles_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelAngles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangular_velocity[m[K’
+  302 |         ptm_vcp_host.M1_VEL_TASK = (int16_t)(msg.[01;31m[Kangular_velocity[m[K[0] * 512.0f);
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:303:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelAngles_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelAngles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangular_velocity[m[K’
+  303 |         ptm_vcp_host.M2_VEL_TASK = (int16_t)(msg.[01;31m[Kangular_velocity[m[K[1] * 512.0f);
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:304:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelAngles_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelAngles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangular_velocity[m[K’
+  304 |         ptm_vcp_host.M3_VEL_TASK = (int16_t)(msg.[01;31m[Kangular_velocity[m[K[2] * 512.0f);
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:305:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst potamon_interfaces::msg::WheelAngles_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<potamon_interfaces::msg::WheelAngles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangular_velocity[m[K’
+  305 |         ptm_vcp_host.M4_VEL_TASK = (int16_t)(msg.[01;31m[Kangular_velocity[m[K[3] * 512.0f);
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,2 @@
+source;share/potamon-rpi/environment/ament_prefix_path.sh
+source;share/potamon-rpi/environment/path.sh

@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/jv4k/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[5.605s] [100%] [32m[1mLinking CXX executable potamon_rpi[0m
+[5.905s] [100%] Built target potamon_rpi
+[5.922s] Invoked command in '/home/jv4k/potamon_ws/src/build/potamon-rpi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jv4k/potamon_ws/src/build/potamon-rpi -- -j12 -l12
+[5.924s] Invoking command in '/home/jv4k/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jv4k/potamon_ws/src/build/potamon-rpi
+[5.940s] -- Install configuration: ""
+[5.940s] -- Installing: /home/jv4k/potamon_ws/src/install/potamon-rpi/lib/potamon-rpi/potamon_rpi
+[5.943s] -- Set non-toolchain portion of runtime path of "/home/jv4k/potamon_ws/src/install/potamon-rpi/lib/potamon-rpi/potamon_rpi" to ""
+[5.943s] -- Installing: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/ament_index/resource_index/package_run_dependencies/potamon-rpi
+[5.944s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/ament_index/resource_index/parent_prefix_path/potamon-rpi
+[5.944s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/environment/ament_prefix_path.sh
+[5.944s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/environment/ament_prefix_path.dsv
+[5.944s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/environment/path.sh
+[5.944s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/environment/path.dsv
+[5.945s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/local_setup.bash
+[5.945s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/local_setup.sh
+[5.945s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/local_setup.zsh
+[5.945s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/local_setup.dsv
+[5.946s] -- Installing: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.dsv
+[5.946s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/ament_index/resource_index/packages/potamon-rpi
+[5.946s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/cmake/potamon-rpiConfig.cmake
+[5.946s] -- Up-to-date: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/cmake/potamon-rpiConfig-version.cmake
+[5.946s] -- Installing: /home/jv4k/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.xml
+[5.948s] Invoked command in '/home/jv4k/potamon_ws/src/build/potamon-rpi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jv4k/potamon_ws/src/build/potamon-rpi

@@ -1,0 +1,9 @@
+uint8 MODE_IDLE=0 # Стоп
+uint8 MODE_VELOCITY=1 # Управление скоростью платформы (vx, vy, wz)
+uint8 MODE_TRAJECTORY=2 # Траектория ...
+uint8 MODE_WHEELS_VELOCITY=3 # Управление скоростями колес
+uint8 MODE_WHEELS_ANGLE=4 # Управление углами колес
+uint8 mode               # Requested control mode (use the constants above)
+---
+bool success             # True if mode switch succeeded
+string message           # Status/error message
