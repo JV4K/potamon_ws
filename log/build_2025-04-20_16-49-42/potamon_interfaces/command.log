@@ -1,0 +1,4 @@
+Invoking command in '/home/potamon1/potamon_ws/build/potamon_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/potamon1/potamon_ws/build/potamon_interfaces -- -j4 -l4
+Invoked command in '/home/potamon1/potamon_ws/build/potamon_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/potamon1/potamon_ws/build/potamon_interfaces -- -j4 -l4
+Invoking command in '/home/potamon1/potamon_ws/build/potamon_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/potamon1/potamon_ws/build/potamon_interfaces
+Invoked command in '/home/potamon1/potamon_ws/build/potamon_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/potamon1/potamon_ws/build/potamon_interfaces

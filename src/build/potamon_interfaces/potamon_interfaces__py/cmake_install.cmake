@@ -1,8 +1,8 @@
-# Install script for directory: /home/jv4k/potamon_ws/src/build/potamon_interfaces/potamon_interfaces__py
+# Install script for directory: /home/potamon1/potamon_ws/src/build/potamon_interfaces/potamon_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jv4k/potamon_ws/src/install/potamon_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/potamon1/potamon_ws/src/install/potamon_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

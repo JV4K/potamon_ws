@@ -1,0 +1,219 @@
+[0.138s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.138s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff864229f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8657b020>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8657b020>>, mixin_verb=('build',))
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.193s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/potamon1/potamon_ws/src'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(potamon-rpi) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(potamon-rpi) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(potamon-rpi) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(potamon-rpi) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(potamon-rpi) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(potamon-rpi) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(potamon-rpi) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(potamon-rpi) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(potamon-rpi) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'potamon-rpi' with type 'ros.ament_cmake' and name 'potamon-rpi'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(potamon_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(potamon_interfaces) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(potamon_interfaces) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(potamon_interfaces) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(potamon_interfaces) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(potamon_interfaces) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(potamon_interfaces) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(potamon_interfaces) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(potamon_interfaces) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'potamon_interfaces' with type 'ros.ament_cmake' and name 'potamon_interfaces'
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.261s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.261s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/potamon1/potamon_ws/src/install/potamon-rpi' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.262s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/potamon1/potamon_ws/src/install/potamon_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.262s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.262s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/potamon1/potamon_ws/src/install/potamon-rpi' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.262s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/potamon1/potamon_ws/src/install/potamon_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/potamon1/potamon_ws/src/install
+[0.264s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 191 installed packages in /opt/ros/jazzy
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'potamon_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'potamon_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'potamon_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'potamon_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'potamon_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'potamon_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'potamon_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'potamon_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'potamon_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'potamon_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/potamon1/potamon_ws/src/build/potamon_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/potamon1/potamon_ws/src/install/potamon_interfaces', 'merge_install': False, 'path': '/home/potamon1/potamon_ws/src/potamon_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'potamon-rpi' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'potamon-rpi' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'potamon-rpi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'potamon-rpi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'potamon-rpi' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'potamon-rpi' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'potamon-rpi' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'potamon-rpi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'potamon-rpi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'potamon-rpi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/potamon1/potamon_ws/src/build/potamon-rpi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/potamon1/potamon_ws/src/install/potamon-rpi', 'merge_install': False, 'path': '/home/potamon1/potamon_ws/src/potamon-rpi', 'symlink_install': False, 'test_result_base': None}
+[0.303s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.305s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.305s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/potamon1/potamon_ws/src/potamon_interfaces' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/potamon1/potamon_ws/src/potamon_interfaces'
+[0.307s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potamon1/potamon_ws/src/build/potamon_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon_interfaces -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/src/install/potamon_interfaces
+[4.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potamon1/potamon_ws/src/build/potamon_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon_interfaces -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/src/install/potamon_interfaces
+[4.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potamon1/potamon_ws/src/build/potamon_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/potamon1/potamon_ws/src/build/potamon_interfaces -- -j4 -l4
+[16.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potamon1/potamon_ws/src/build/potamon_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/potamon1/potamon_ws/src/build/potamon_interfaces -- -j4 -l4
+[16.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potamon1/potamon_ws/src/build/potamon_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/potamon1/potamon_ws/src/build/potamon_interfaces
+[16.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(potamon_interfaces)
+[16.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potamon1/potamon_ws/src/build/potamon_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/potamon1/potamon_ws/src/build/potamon_interfaces
+[16.283s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces' for CMake module files
+[16.284s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces' for CMake config files
+[16.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('potamon_interfaces', 'cmake_prefix_path')
+[16.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/cmake_prefix_path.ps1'
+[16.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/cmake_prefix_path.dsv'
+[16.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/cmake_prefix_path.sh'
+[16.287s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces/lib'
+[16.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('potamon_interfaces', 'ld_library_path_lib')
+[16.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/ld_library_path_lib.ps1'
+[16.288s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/ld_library_path_lib.dsv'
+[16.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/ld_library_path_lib.sh'
+[16.289s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces/bin'
+[16.289s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces/lib/pkgconfig/potamon_interfaces.pc'
+[16.290s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages'
+[16.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('potamon_interfaces', 'pythonpath')
+[16.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/pythonpath.ps1'
+[16.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/pythonpath.dsv'
+[16.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/pythonpath.sh'
+[16.291s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces/bin'
+[16.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.ps1'
+[16.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.dsv'
+[16.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.sh'
+[16.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.bash'
+[16.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.zsh'
+[16.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/colcon-core/packages/potamon_interfaces)
+[16.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(potamon_interfaces)
+[16.297s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces' for CMake module files
+[16.297s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces' for CMake config files
+[16.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('potamon_interfaces', 'cmake_prefix_path')
+[16.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/cmake_prefix_path.ps1'
+[16.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/cmake_prefix_path.dsv'
+[16.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/cmake_prefix_path.sh'
+[16.301s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces/lib'
+[16.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('potamon_interfaces', 'ld_library_path_lib')
+[16.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/ld_library_path_lib.ps1'
+[16.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/ld_library_path_lib.dsv'
+[16.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/ld_library_path_lib.sh'
+[16.303s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces/bin'
+[16.303s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces/lib/pkgconfig/potamon_interfaces.pc'
+[16.304s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces/lib/python3.12/site-packages'
+[16.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('potamon_interfaces', 'pythonpath')
+[16.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/pythonpath.ps1'
+[16.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/pythonpath.dsv'
+[16.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/hook/pythonpath.sh'
+[16.306s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon_interfaces/bin'
+[16.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.ps1'
+[16.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.dsv'
+[16.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.sh'
+[16.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.bash'
+[16.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/potamon_interfaces/package.zsh'
+[16.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potamon1/potamon_ws/src/install/potamon_interfaces/share/colcon-core/packages/potamon_interfaces)
+[16.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/potamon1/potamon_ws/src/potamon-rpi' with build type 'ament_cmake'
+[16.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/potamon1/potamon_ws/src/potamon-rpi'
+[16.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potamon1/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/src/install/potamon_interfaces:/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader:/home/potamon1/potamon_ws/src/install/potamon-rpi:/opt/ros/jazzy /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon-rpi -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/src/install/potamon-rpi
+[18.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potamon1/potamon_ws/src/build/potamon-rpi' returned '0': CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/src/install/potamon_interfaces:/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader:/home/potamon1/potamon_ws/src/install/potamon-rpi:/opt/ros/jazzy /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon-rpi -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/src/install/potamon-rpi
+[18.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potamon1/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/src/install/potamon_interfaces:/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader:/home/potamon1/potamon_ws/src/install/potamon-rpi:/opt/ros/jazzy /usr/bin/cmake --build /home/potamon1/potamon_ws/src/build/potamon-rpi -- -j4 -l4
+[50.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potamon1/potamon_ws/src/build/potamon-rpi' returned '0': CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/src/install/potamon_interfaces:/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader:/home/potamon1/potamon_ws/src/install/potamon-rpi:/opt/ros/jazzy /usr/bin/cmake --build /home/potamon1/potamon_ws/src/build/potamon-rpi -- -j4 -l4
+[50.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potamon1/potamon_ws/src/build/potamon-rpi': CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/src/install/potamon_interfaces:/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader:/home/potamon1/potamon_ws/src/install/potamon-rpi:/opt/ros/jazzy /usr/bin/cmake --install /home/potamon1/potamon_ws/src/build/potamon-rpi
+[50.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(potamon-rpi)
+[50.448s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi' for CMake module files
+[50.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potamon1/potamon_ws/src/build/potamon-rpi' returned '0': CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/src/install/potamon_interfaces:/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader:/home/potamon1/potamon_ws/src/install/potamon-rpi:/opt/ros/jazzy /usr/bin/cmake --install /home/potamon1/potamon_ws/src/build/potamon-rpi
+[50.449s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi' for CMake config files
+[50.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('potamon-rpi', 'cmake_prefix_path')
+[50.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/hook/cmake_prefix_path.ps1'
+[50.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/hook/cmake_prefix_path.dsv'
+[50.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/hook/cmake_prefix_path.sh'
+[50.451s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi/lib'
+[50.451s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi/bin'
+[50.451s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi/lib/pkgconfig/potamon-rpi.pc'
+[50.452s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi/lib/python3.12/site-packages'
+[50.452s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi/bin'
+[50.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.ps1'
+[50.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.dsv'
+[50.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.sh'
+[50.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.bash'
+[50.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.zsh'
+[50.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potamon1/potamon_ws/src/install/potamon-rpi/share/colcon-core/packages/potamon-rpi)
+[50.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(potamon-rpi)
+[50.455s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi' for CMake module files
+[50.456s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi' for CMake config files
+[50.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('potamon-rpi', 'cmake_prefix_path')
+[50.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/hook/cmake_prefix_path.ps1'
+[50.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/hook/cmake_prefix_path.dsv'
+[50.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/hook/cmake_prefix_path.sh'
+[50.458s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi/lib'
+[50.459s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi/bin'
+[50.459s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi/lib/pkgconfig/potamon-rpi.pc'
+[50.459s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi/lib/python3.12/site-packages'
+[50.459s] Level 1:colcon.colcon_core.environment:checking '/home/potamon1/potamon_ws/src/install/potamon-rpi/bin'
+[50.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.ps1'
+[50.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.dsv'
+[50.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.sh'
+[50.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.bash'
+[50.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/potamon1/potamon_ws/src/install/potamon-rpi/share/potamon-rpi/package.zsh'
+[50.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potamon1/potamon_ws/src/install/potamon-rpi/share/colcon-core/packages/potamon-rpi)
+[50.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[50.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[50.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[50.465s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[50.472s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[50.472s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[50.472s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[50.472s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[50.473s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[50.474s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[50.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/potamon1/potamon_ws/src/install/local_setup.ps1'
+[50.475s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/potamon1/potamon_ws/src/install/_local_setup_util_ps1.py'
+[50.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/potamon1/potamon_ws/src/install/setup.ps1'
+[50.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/potamon1/potamon_ws/src/install/local_setup.sh'
+[50.478s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/potamon1/potamon_ws/src/install/_local_setup_util_sh.py'
+[50.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/potamon1/potamon_ws/src/install/setup.sh'
+[50.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/potamon1/potamon_ws/src/install/local_setup.bash'
+[50.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/potamon1/potamon_ws/src/install/setup.bash'
+[50.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/potamon1/potamon_ws/src/install/local_setup.zsh'
+[50.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/potamon1/potamon_ws/src/install/setup.zsh'

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jv4k/potamon_ws/src/potamon-rpi
+# Install script for directory: /home/potamon1/potamon_ws/src/potamon-rpi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jv4k/potamon_ws/src/install/potamon-rpi")
+  set(CMAKE_INSTALL_PREFIX "/home/potamon1/potamon_ws/src/install/potamon-rpi")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/potamon-rpi/potamon_rpi"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/potamon-rpi" TYPE EXECUTABLE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/potamon_rpi")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/potamon-rpi" TYPE EXECUTABLE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/potamon_rpi")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/potamon-rpi/potamon_rpi" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/potamon-rpi/potamon_rpi")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/potamon-rpi/potamon_rpi"
-         OLD_RPATH "/opt/ros/jazzy/lib:/home/jv4k/potamon_ws/src/install/potamon_interfaces/lib:"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/potamon1/potamon_ws/src/install/potamon_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/potamon-rpi/potamon_rpi")
@@ -63,15 +63,19 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jv4k/potamon_ws/src/build/potamon-rpi/CMakeFiles/potamon_rpi.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/potamon1/potamon_ws/src/build/potamon-rpi/CMakeFiles/potamon_rpi.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/potamon-rpi")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi/" TYPE DIRECTORY FILES "/home/potamon1/potamon_ws/src/potamon-rpi/launch")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/potamon-rpi")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/potamon-rpi")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/potamon-rpi")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -79,7 +83,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi/environment" TYPE FILE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi/environment" TYPE FILE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -87,42 +91,42 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi/environment" TYPE FILE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi/environment" TYPE FILE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_index/share/ament_index/resource_index/packages/potamon-rpi")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_index/share/ament_index/resource_index/packages/potamon-rpi")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi/cmake" TYPE FILE FILES
-    "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_core/potamon-rpiConfig.cmake"
-    "/home/jv4k/potamon_ws/src/build/potamon-rpi/ament_cmake_core/potamon-rpiConfig-version.cmake"
+    "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_core/potamon-rpiConfig.cmake"
+    "/home/potamon1/potamon_ws/src/build/potamon-rpi/ament_cmake_core/potamon-rpiConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/jv4k/potamon_ws/src/potamon-rpi/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/potamon-rpi" TYPE FILE FILES "/home/potamon1/potamon_ws/src/potamon-rpi/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -133,5 +137,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jv4k/potamon_ws/src/build/potamon-rpi/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/potamon1/potamon_ws/src/build/potamon-rpi/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

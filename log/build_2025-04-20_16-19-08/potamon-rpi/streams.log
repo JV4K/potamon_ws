@@ -1,0 +1,59 @@
+[0.013s] Invoking command in '/home/potamon1/potamon_ws/build/potamon-rpi': AMENT_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:/opt/ros/jazzy LD_LIBRARY_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon-rpi -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/install/potamon-rpi
+[0.109s] -- The C compiler identification is GNU 13.3.0
+[0.208s] -- The CXX compiler identification is GNU 13.3.0
+[0.233s] -- Detecting C compiler ABI info
+[0.384s] -- Detecting C compiler ABI info - done
+[0.399s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.399s] -- Detecting C compile features
+[0.400s] -- Detecting C compile features - done
+[0.413s] -- Detecting CXX compiler ABI info
+[0.580s] -- Detecting CXX compiler ABI info - done
+[0.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.596s] -- Detecting CXX compile features
+[0.597s] -- Detecting CXX compile features - done
+[0.600s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.807s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.952s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.995s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.011s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.030s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.052s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.173s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.180s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.330s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.355s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.390s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.553s] -- Found potamon_interfaces: 0.0.0 (/home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake)
+[1.575s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.686s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.730s] -- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)
+[1.740s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.922s] -- Configuring done (1.9s)
+[1.944s] -- Generating done (0.0s)
+[1.950s] -- Build files have been written to: /home/potamon1/potamon_ws/build/potamon-rpi
+[1.968s] Invoked command in '/home/potamon1/potamon_ws/build/potamon-rpi' returned '0': AMENT_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:/opt/ros/jazzy LD_LIBRARY_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon-rpi -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/install/potamon-rpi
+[1.969s] Invoking command in '/home/potamon1/potamon_ws/build/potamon-rpi': AMENT_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:/opt/ros/jazzy LD_LIBRARY_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/potamon1/potamon_ws/build/potamon-rpi -- -j4 -l4
+[2.052s] [ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[33.255s] [100%] [32m[1mLinking CXX executable potamon_rpi[0m
+[35.535s] [100%] Built target potamon_rpi
+[35.555s] Invoked command in '/home/potamon1/potamon_ws/build/potamon-rpi' returned '0': AMENT_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:/opt/ros/jazzy LD_LIBRARY_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/potamon1/potamon_ws/build/potamon-rpi -- -j4 -l4
+[35.557s] Invoking command in '/home/potamon1/potamon_ws/build/potamon-rpi': AMENT_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:/opt/ros/jazzy LD_LIBRARY_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/potamon1/potamon_ws/build/potamon-rpi
+[35.569s] -- Install configuration: ""
+[35.570s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/lib/potamon-rpi/potamon_rpi
+[35.598s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon-rpi/lib/potamon-rpi/potamon_rpi" to ""
+[35.598s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/ament_index/resource_index/package_run_dependencies/potamon-rpi
+[35.599s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/ament_index/resource_index/parent_prefix_path/potamon-rpi
+[35.599s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/ament_prefix_path.sh
+[35.599s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/ament_prefix_path.dsv
+[35.599s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/path.sh
+[35.599s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/path.dsv
+[35.600s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.bash
+[35.600s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.sh
+[35.600s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.zsh
+[35.600s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.dsv
+[35.600s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/package.dsv
+[35.600s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/ament_index/resource_index/packages/potamon-rpi
+[35.601s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/cmake/potamon-rpiConfig.cmake
+[35.601s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/cmake/potamon-rpiConfig-version.cmake
+[35.601s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/package.xml
+[35.604s] Invoked command in '/home/potamon1/potamon_ws/build/potamon-rpi' returned '0': AMENT_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:/opt/ros/jazzy LD_LIBRARY_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/potamon1/potamon_ws/build/potamon-rpi

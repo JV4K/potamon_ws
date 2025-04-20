@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "potamon_interfaces/msg/detail/wheel_angles__type_support.h"
-#include "potamon_interfaces/msg/detail/wheel_angles__struct.h"
 #include "potamon_interfaces/msg/detail/wheel_angles__functions.h"
+#include "potamon_interfaces/msg/detail/wheel_angles__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "potamon_interfaces/msg/detail/wheel_angles__struct.h"
 
 #ifdef __cplusplus
 extern "C"

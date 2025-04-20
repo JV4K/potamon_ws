@@ -1,0 +1,4 @@
+source;share/potamon_interfaces/local_setup.bash
+source;share/potamon_interfaces/local_setup.dsv
+source;share/potamon_interfaces/local_setup.sh
+source;share/potamon_interfaces/local_setup.zsh

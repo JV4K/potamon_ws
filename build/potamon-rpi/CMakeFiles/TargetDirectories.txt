@@ -1,0 +1,10 @@
+/home/potamon1/potamon_ws/build/potamon-rpi/CMakeFiles/uninstall.dir
+/home/potamon1/potamon_ws/build/potamon-rpi/CMakeFiles/potamon-rpi_uninstall.dir
+/home/potamon1/potamon_ws/build/potamon-rpi/CMakeFiles/potamon_rpi.dir
+/home/potamon1/potamon_ws/build/potamon-rpi/CMakeFiles/test.dir
+/home/potamon1/potamon_ws/build/potamon-rpi/CMakeFiles/edit_cache.dir
+/home/potamon1/potamon_ws/build/potamon-rpi/CMakeFiles/rebuild_cache.dir
+/home/potamon1/potamon_ws/build/potamon-rpi/CMakeFiles/list_install_components.dir
+/home/potamon1/potamon_ws/build/potamon-rpi/CMakeFiles/install.dir
+/home/potamon1/potamon_ws/build/potamon-rpi/CMakeFiles/install/local.dir
+/home/potamon1/potamon_ws/build/potamon-rpi/CMakeFiles/install/strip.dir

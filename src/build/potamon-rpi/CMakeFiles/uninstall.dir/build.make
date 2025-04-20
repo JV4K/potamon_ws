@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jv4k/potamon_ws/src/potamon-rpi
+CMAKE_SOURCE_DIR = /home/potamon1/potamon_ws/src/potamon-rpi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jv4k/potamon_ws/src/build/potamon-rpi
+CMAKE_BINARY_DIR = /home/potamon1/potamon_ws/src/build/potamon-rpi
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/jv4k/potamon_ws/src/build/potamon-rpi && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jv4k/potamon_ws/src/potamon-rpi /home/jv4k/potamon_ws/src/potamon-rpi /home/jv4k/potamon_ws/src/build/potamon-rpi /home/jv4k/potamon_ws/src/build/potamon-rpi /home/jv4k/potamon_ws/src/build/potamon-rpi/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/potamon1/potamon_ws/src/build/potamon-rpi && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/potamon1/potamon_ws/src/potamon-rpi /home/potamon1/potamon_ws/src/potamon-rpi /home/potamon1/potamon_ws/src/build/potamon-rpi /home/potamon1/potamon_ws/src/build/potamon-rpi /home/potamon1/potamon_ws/src/build/potamon-rpi/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

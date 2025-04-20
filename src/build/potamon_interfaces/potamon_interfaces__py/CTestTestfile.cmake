@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/jv4k/potamon_ws/src/build/potamon_interfaces/potamon_interfaces__py
-# Build directory: /home/jv4k/potamon_ws/src/build/potamon_interfaces/potamon_interfaces__py
+# Source directory: /home/potamon1/potamon_ws/src/build/potamon_interfaces/potamon_interfaces__py
+# Build directory: /home/potamon1/potamon_ws/src/build/potamon_interfaces/potamon_interfaces__py
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

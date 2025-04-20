@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jv4k/potamon_ws/src/potamon-rpi
+CMAKE_SOURCE_DIR = /home/potamon1/potamon_ws/src/potamon-rpi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jv4k/potamon_ws/src/build/potamon-rpi
+CMAKE_BINARY_DIR = /home/potamon1/potamon_ws/src/build/potamon-rpi
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jv4k/potamon_ws/src/build/potamon-rpi/CMakeFiles /home/jv4k/potamon_ws/src/build/potamon-rpi//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/potamon1/potamon_ws/src/build/potamon-rpi/CMakeFiles /home/potamon1/potamon_ws/src/build/potamon-rpi//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jv4k/potamon_ws/src/build/potamon-rpi/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/potamon1/potamon_ws/src/build/potamon-rpi/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
-[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KcomLoop[m[K()[m[K’:
-[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:223:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator&=[m[K’ (operand types are ‘[01m[Kptmn_usb_host_t[m[K’ and ‘[01m[Kint[m[K’)
-  223 |             [01;31m[Kptm_vcp_host &= 0b11111000[m[K;
-      |             [01;31m[K~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

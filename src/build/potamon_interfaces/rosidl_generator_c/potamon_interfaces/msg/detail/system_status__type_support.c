@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "potamon_interfaces/msg/detail/system_status__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "potamon_interfaces/msg/detail/system_status__functions.h"
 #include "potamon_interfaces/msg/detail/system_status__type_support.h"
+#include "potamon_interfaces/msg/detail/system_status__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

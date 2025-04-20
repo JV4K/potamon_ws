@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/potamon1/potamon_ws/src/potamon-rpi/build/potamon-rpi': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon-rpi -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/src/potamon-rpi/install/potamon-rpi
+[0.035s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.355s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.384s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.396s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.509s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.511s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.595s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.676s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.677s]   By not providing "Findpotamon_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.677s]   project has asked CMake to find a package configuration file provided by
+[0.677s]   "potamon_interfaces", but CMake did not find one.
+[0.677s] 
+[0.677s]   Could not find a package configuration file provided by
+[0.677s]   "potamon_interfaces" with any of the following names:
+[0.677s] 
+[0.677s]     potamon_interfacesConfig.cmake
+[0.677s]     potamon_interfaces-config.cmake
+[0.677s] 
+[0.677s]   Add the installation prefix of "potamon_interfaces" to CMAKE_PREFIX_PATH or
+[0.677s]   set "potamon_interfaces_DIR" to a directory containing one of the above
+[0.677s]   files.  If "potamon_interfaces" provides a separate development package or
+[0.678s]   SDK, be sure it has been installed.
+[0.678s] 
+[0.678s] [0m
+[0.678s] -- Configuring incomplete, errors occurred!
+[0.686s] Invoked command in '/home/potamon1/potamon_ws/src/potamon-rpi/build/potamon-rpi' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon-rpi -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/src/potamon-rpi/install/potamon-rpi

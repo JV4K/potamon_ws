@@ -1,0 +1,382 @@
+[0.022s] Invoking command in '/home/potamon1/potamon_ws/build/potamon_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon_interfaces -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/install/potamon_interfaces
+[0.617s] -- The C compiler identification is GNU 13.3.0
+[1.001s] -- The CXX compiler identification is GNU 13.3.0
+[1.040s] -- Detecting C compiler ABI info
+[1.229s] -- Detecting C compiler ABI info - done
+[1.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.247s] -- Detecting C compile features
+[1.248s] -- Detecting C compile features - done
+[1.264s] -- Detecting CXX compiler ABI info
+[1.433s] -- Detecting CXX compiler ABI info - done
+[1.450s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.451s] -- Detecting CXX compile features
+[1.451s] -- Detecting CXX compile features - done
+[1.457s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.671s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.857s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.868s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.959s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.042s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.016s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.498s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.700s] -- Found PythonExtra: /usr/bin/python3  
+[5.375s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.430s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.472s] -- Added test 'lint_cmake' to check CMake code style
+[5.475s] -- Added test 'xmllint' to check XML markup files
+[5.480s] -- Configuring done (5.3s)
+[5.547s] -- Generating done (0.1s)
+[5.565s] -- Build files have been written to: /home/potamon1/potamon_ws/build/potamon_interfaces
+[5.584s] Invoked command in '/home/potamon1/potamon_ws/build/potamon_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon_interfaces -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/install/potamon_interfaces
+[5.587s] Invoking command in '/home/potamon1/potamon_ws/build/potamon_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/potamon1/potamon_ws/build/potamon_interfaces -- -j4 -l4
+[5.670s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.686s] [  1%] Built target ament_cmake_python_copy_potamon_interfaces
+[5.969s] running egg_info
+[5.970s] creating potamon_interfaces.egg-info
+[5.991s] writing potamon_interfaces.egg-info/PKG-INFO
+[5.992s] writing dependency_links to potamon_interfaces.egg-info/dependency_links.txt
+[5.992s] writing top-level names to potamon_interfaces.egg-info/top_level.txt
+[5.992s] writing manifest file 'potamon_interfaces.egg-info/SOURCES.txt'
+[6.055s] reading manifest file 'potamon_interfaces.egg-info/SOURCES.txt'
+[6.056s] writing manifest file 'potamon_interfaces.egg-info/SOURCES.txt'
+[6.123s] [  1%] Built target ament_cmake_python_build_potamon_interfaces_egg
+[6.250s] [  1%] Built target potamon_interfaces__rosidl_generator_type_description
+[6.267s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.284s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.237s] [  4%] Built target potamon_interfaces__cpp
+[7.376s] [  9%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/wheel_states__description.c.o[0m
+[7.376s] [  9%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/wheel_states__functions.c.o[0m
+[7.377s] [  9%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/system_status__description.c.o[0m
+[7.378s] [  9%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/wheel_states__type_support.c.o[0m
+[7.483s] [ 10%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/system_status__functions.c.o[0m
+[7.504s] [ 12%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/system_status__type_support.c.o[0m
+[7.507s] [ 13%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/wheel_velocities__description.c.o[0m
+[7.559s] [ 14%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/wheel_velocities__functions.c.o[0m
+[7.576s] [ 16%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/wheel_velocities__type_support.c.o[0m
+[7.589s] [ 18%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/wheel_angles__functions.c.o[0m
+[7.590s] [ 18%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/wheel_angles__description.c.o[0m
+[7.648s] [ 20%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/msg/detail/wheel_angles__type_support.c.o[0m
+[7.668s] [ 21%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/srv/detail/set_control_mode__description.c.o[0m
+[7.678s] [ 22%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/srv/detail/set_control_mode__functions.c.o[0m
+[7.699s] [ 24%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_c.dir/rosidl_generator_c/potamon_interfaces/srv/detail/set_control_mode__type_support.c.o[0m
+[7.806s] [ 25%] [32m[1mLinking C shared library libpotamon_interfaces__rosidl_generator_c.so[0m
+[7.885s] [ 25%] Built target potamon_interfaces__rosidl_generator_c
+[7.909s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.909s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.909s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.909s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.705s] [ 32%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/potamon_interfaces/msg/wheel_states__type_support.cpp.o[0m
+[8.823s] [ 33%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/potamon_interfaces/msg/system_status__type_support.cpp.o[0m
+[8.925s] [ 35%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/potamon_interfaces/msg/wheel_velocities__type_support.cpp.o[0m
+[8.948s] [ 36%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/potamon_interfaces/msg/detail/wheel_states__type_support.c.o[0m
+[9.019s] [ 37%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/potamon_interfaces/msg/wheel_angles__type_support.cpp.o[0m
+[9.047s] [ 39%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/potamon_interfaces/msg/detail/system_status__type_support.c.o[0m
+[9.077s] [ 40%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/potamon_interfaces/msg/detail/dds_fastrtps/wheel_states__type_support.cpp.o[0m
+[9.115s] [ 41%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/potamon_interfaces/srv/set_control_mode__type_support.cpp.o[0m
+[9.122s] [ 43%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_states__type_support_c.cpp.o[0m
+[9.135s] [ 44%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/potamon_interfaces/msg/detail/wheel_velocities__type_support.c.o[0m
+[9.207s] [ 45%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/potamon_interfaces/msg/detail/wheel_angles__type_support.c.o[0m
+[9.211s] [ 47%] [32m[1mLinking CXX shared library libpotamon_interfaces__rosidl_typesupport_c.so[0m
+[9.287s] [ 48%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/potamon_interfaces/srv/detail/set_control_mode__type_support.c.o[0m
+[9.303s] [ 48%] Built target potamon_interfaces__rosidl_typesupport_c
+[9.323s] [ 50%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/potamon_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[9.393s] [ 51%] [32m[1mLinking C shared library libpotamon_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.474s] [ 51%] Built target potamon_interfaces__rosidl_typesupport_introspection_c
+[9.497s] [ 52%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.159s] [ 54%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[10.183s] [ 55%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/potamon_interfaces/msg/detail/dds_fastrtps/wheel_velocities__type_support.cpp.o[0m
+[10.308s] [ 56%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.668s] [ 58%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/potamon_interfaces/msg/detail/wheel_states__type_support.cpp.o[0m
+[11.091s] [ 59%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_velocities__type_support_c.cpp.o[0m
+[11.158s] [ 60%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/potamon_interfaces/msg/detail/dds_fastrtps/wheel_angles__type_support.cpp.o[0m
+[11.327s] [ 62%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/potamon_interfaces/msg/wheel_states__type_support.cpp.o[0m
+[11.346s] [ 63%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/potamon_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[11.974s] [ 64%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/potamon_interfaces/msg/system_status__type_support.cpp.o[0m
+[12.016s] [ 66%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/msg/detail/wheel_angles__type_support_c.cpp.o[0m
+[12.018s] [ 67%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/potamon_interfaces/msg/detail/wheel_velocities__type_support.cpp.o[0m
+[12.160s] [ 68%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/potamon_interfaces/srv/detail/dds_fastrtps/set_control_mode__type_support.cpp.o[0m
+[12.620s] [ 70%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/potamon_interfaces/msg/wheel_velocities__type_support.cpp.o[0m
+[12.662s] [ 71%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/potamon_interfaces/msg/detail/wheel_angles__type_support.cpp.o[0m
+[12.963s] [ 72%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/potamon_interfaces/srv/detail/set_control_mode__type_support_c.cpp.o[0m
+[13.264s] [ 74%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/potamon_interfaces/msg/wheel_angles__type_support.cpp.o[0m
+[13.311s] [ 75%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/potamon_interfaces/srv/detail/set_control_mode__type_support.cpp.o[0m
+[13.529s] [ 77%] [32m[1mLinking CXX shared library libpotamon_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.746s] [ 77%] Built target potamon_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.767s] [ 78%] [32mBuilding CXX object CMakeFiles/potamon_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/potamon_interfaces/srv/set_control_mode__type_support.cpp.o[0m
+[14.050s] [ 79%] [32m[1mLinking CXX shared library libpotamon_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[14.182s] [ 81%] [32m[1mLinking CXX shared library libpotamon_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[14.309s] [ 81%] Built target potamon_interfaces__rosidl_typesupport_fastrtps_c
+[14.365s] [ 81%] Built target potamon_interfaces__rosidl_typesupport_introspection_cpp
+[14.503s] [ 82%] [32m[1mLinking CXX shared library libpotamon_interfaces__rosidl_typesupport_cpp.so[0m
+[14.656s] [ 82%] Built target potamon_interfaces__rosidl_typesupport_cpp
+[14.690s] [ 82%] Built target potamon_interfaces
+[14.723s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.031s] [ 83%] Built target potamon_interfaces__py
+[16.067s] [ 89%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_py.dir/rosidl_generator_py/potamon_interfaces/msg/_wheel_states_s.c.o[0m
+[16.068s] [ 89%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_py.dir/rosidl_generator_py/potamon_interfaces/msg/_wheel_angles_s.c.o[0m
+[16.068s] [ 89%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_py.dir/rosidl_generator_py/potamon_interfaces/msg/_wheel_velocities_s.c.o[0m
+[16.068s] [ 89%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_py.dir/rosidl_generator_py/potamon_interfaces/msg/_system_status_s.c.o[0m
+[16.413s] [ 90%] [32mBuilding C object CMakeFiles/potamon_interfaces__rosidl_generator_py.dir/rosidl_generator_py/potamon_interfaces/srv/_set_control_mode_s.c.o[0m
+[16.634s] [ 91%] [32m[1mLinking C shared library libpotamon_interfaces__rosidl_generator_py.so[0m
+[16.718s] [ 91%] Built target potamon_interfaces__rosidl_generator_py
+[16.756s] [ 93%] [32mBuilding C object CMakeFiles/potamon_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/potamon_interfaces/_potamon_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[16.756s] [ 94%] [32mBuilding C object CMakeFiles/potamon_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/potamon_interfaces/_potamon_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.756s] [ 95%] [32mBuilding C object CMakeFiles/potamon_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/potamon_interfaces/_potamon_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.964s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[16.965s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_c.so[0m
+[16.975s] [100%] [32m[1mLinking C shared module rosidl_generator_py/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[17.023s] [100%] Built target potamon_interfaces_s__rosidl_typesupport_introspection_c
+[17.023s] [100%] Built target potamon_interfaces_s__rosidl_typesupport_c
+[17.037s] [100%] Built target potamon_interfaces_s__rosidl_typesupport_fastrtps_c
+[17.059s] Invoked command in '/home/potamon1/potamon_ws/build/potamon_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /home/potamon1/potamon_ws/build/potamon_interfaces -- -j4 -l4
+[17.076s] Invoking command in '/home/potamon1/potamon_ws/build/potamon_interfaces': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/potamon1/potamon_ws/build/potamon_interfaces
+[17.089s] -- Install configuration: ""
+[17.089s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/ament_index/resource_index/rosidl_interfaces/potamon_interfaces
+[17.090s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/WheelStates.json
+[17.090s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/SystemStatus.json
+[17.090s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/WheelVelocities.json
+[17.090s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/WheelAngles.json
+[17.091s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/srv/SetControlMode.json
+[17.091s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces
+[17.091s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg
+[17.091s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_states.h
+[17.091s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/system_status.h
+[17.091s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/rosidl_generator_c__visibility_control.h
+[17.091s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail
+[17.092s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__description.c
+[17.092s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__functions.h
+[17.092s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__struct.h
+[17.092s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__functions.c
+[17.092s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__type_support.c
+[17.092s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__type_support.h
+[17.092s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__type_support.h
+[17.093s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__description.c
+[17.093s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__functions.h
+[17.093s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__type_support.h
+[17.093s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__type_support.h
+[17.093s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__type_support.c
+[17.093s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__struct.h
+[17.093s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__functions.c
+[17.093s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__functions.c
+[17.094s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__functions.h
+[17.094s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__description.c
+[17.094s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__struct.h
+[17.094s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__type_support.c
+[17.094s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__functions.c
+[17.094s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__struct.h
+[17.094s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__functions.h
+[17.095s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__type_support.c
+[17.095s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__description.c
+[17.095s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_angles.h
+[17.095s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_velocities.h
+[17.095s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv
+[17.095s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail
+[17.095s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__type_support.h
+[17.095s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__type_support.c
+[17.096s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__functions.h
+[17.096s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__functions.c
+[17.096s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__struct.h
+[17.096s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__description.c
+[17.096s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/set_control_mode.h
+[17.097s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/environment/library_path.sh
+[17.097s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/environment/library_path.dsv
+[17.097s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_generator_c.so
+[17.098s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_generator_c.so" to ""
+[17.098s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces
+[17.098s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg
+[17.098s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.098s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail
+[17.098s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[17.098s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__rosidl_typesupport_fastrtps_c.h
+[17.098s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_c.h
+[17.098s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__rosidl_typesupport_fastrtps_c.h
+[17.099s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv
+[17.099s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail
+[17.099s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__rosidl_typesupport_fastrtps_c.h
+[17.099s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_fastrtps_c.so
+[17.099s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[17.100s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces
+[17.100s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg
+[17.100s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.100s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail
+[17.100s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__rosidl_typesupport_introspection_c.h
+[17.100s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__rosidl_typesupport_introspection_c.h
+[17.100s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__type_support.c
+[17.100s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__type_support.c
+[17.100s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[17.100s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__type_support.c
+[17.101s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__type_support.c
+[17.101s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_introspection_c.h
+[17.101s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv
+[17.101s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail
+[17.101s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__type_support.c
+[17.101s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__rosidl_typesupport_introspection_c.h
+[17.101s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_introspection_c.so
+[17.102s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[17.102s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_c.so
+[17.103s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_c.so" to ""
+[17.103s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces
+[17.103s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg
+[17.103s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_angles.hpp
+[17.103s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_velocities.hpp
+[17.103s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/wheel_states.hpp
+[17.103s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/system_status.hpp
+[17.103s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail
+[17.103s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__traits.hpp
+[17.104s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__builder.hpp
+[17.104s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__builder.hpp
+[17.104s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__type_support.hpp
+[17.104s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__struct.hpp
+[17.104s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__struct.hpp
+[17.104s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__struct.hpp
+[17.104s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__traits.hpp
+[17.104s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__builder.hpp
+[17.105s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__builder.hpp
+[17.105s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__type_support.hpp
+[17.105s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__traits.hpp
+[17.105s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__struct.hpp
+[17.105s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__type_support.hpp
+[17.105s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__type_support.hpp
+[17.105s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__traits.hpp
+[17.105s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[17.106s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv
+[17.106s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/set_control_mode.hpp
+[17.106s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail
+[17.106s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__builder.hpp
+[17.106s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__traits.hpp
+[17.106s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__type_support.hpp
+[17.106s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__struct.hpp
+[17.106s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces
+[17.107s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg
+[17.107s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.107s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail
+[17.107s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/dds_fastrtps
+[17.107s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__rosidl_typesupport_fastrtps_cpp.hpp
+[17.107s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[17.107s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[17.107s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_fastrtps_cpp.hpp
+[17.107s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv
+[17.107s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail
+[17.108s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/dds_fastrtps
+[17.108s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[17.108s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[17.109s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.109s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces
+[17.109s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg
+[17.109s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail
+[17.109s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__type_support.cpp
+[17.109s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__type_support.cpp
+[17.109s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__type_support.cpp
+[17.109s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_velocities__rosidl_typesupport_introspection_cpp.hpp
+[17.109s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[17.110s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_states__rosidl_typesupport_introspection_cpp.hpp
+[17.110s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/wheel_angles__rosidl_typesupport_introspection_cpp.hpp
+[17.110s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/msg/detail/system_status__type_support.cpp
+[17.110s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv
+[17.110s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail
+[17.110s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__type_support.cpp
+[17.110s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/include/potamon_interfaces/potamon_interfaces/srv/detail/set_control_mode__rosidl_typesupport_introspection_cpp.hpp
+[17.110s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_introspection_cpp.so
+[17.111s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[17.111s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_cpp.so
+[17.112s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_typesupport_cpp.so" to ""
+[17.112s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/environment/pythonpath.sh
+[17.112s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/environment/pythonpath.dsv
+[17.112s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces-0.0.0-py3.12.egg-info
+[17.112s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[17.113s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[17.113s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[17.113s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[17.113s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces
+[17.113s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_introspection_c.so
+[17.113s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_c.so
+[17.114s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[17.114s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/_potamon_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.114s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/_potamon_interfaces_s.ep.rosidl_typesupport_c.c
+[17.114s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg
+[17.114s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_velocities.py
+[17.114s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_velocities_s.c
+[17.115s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_states.py
+[17.115s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_angles.py
+[17.115s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_states_s.c
+[17.115s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_system_status_s.c
+[17.115s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_system_status.py
+[17.115s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/__init__.py
+[17.115s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_angles_s.c
+[17.116s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv
+[17.116s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv/_set_control_mode_s.c
+[17.116s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv/_set_control_mode.py
+[17.116s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv/__init__.py
+[17.116s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/__init__.py
+[17.116s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/_potamon_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[17.185s] Listing '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces'...
+[17.185s] Compiling '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/__init__.py'...
+[17.185s] Listing '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg'...
+[17.185s] Compiling '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/__init__.py'...
+[17.186s] Compiling '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_system_status.py'...
+[17.186s] Compiling '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_angles.py'...
+[17.186s] Compiling '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_states.py'...
+[17.186s] Compiling '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/msg/_wheel_velocities.py'...
+[17.186s] Listing '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv'...
+[17.186s] Compiling '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv/__init__.py'...
+[17.186s] Compiling '/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/srv/_set_control_mode.py'...
+[17.198s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[17.199s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[17.199s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_introspection_c.so
+[17.200s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[17.200s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_c.so
+[17.200s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages/potamon_interfaces/potamon_interfaces_s__rosidl_typesupport_c.so" to ""
+[17.201s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_generator_py.so
+[17.201s] -- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon_interfaces/lib/libpotamon_interfaces__rosidl_generator_py.so" to ""
+[17.201s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/WheelStates.idl
+[17.201s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/SystemStatus.idl
+[17.202s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/WheelVelocities.idl
+[17.202s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/WheelAngles.idl
+[17.202s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/srv/SetControlMode.idl
+[17.202s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/WheelStates.msg
+[17.202s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/SystemStatus.msg
+[17.202s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/WheelVelocities.msg
+[17.203s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/msg/WheelAngles.msg
+[17.203s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/srv/SetControlMode.srv
+[17.203s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/ament_index/resource_index/package_run_dependencies/potamon_interfaces
+[17.203s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/ament_index/resource_index/parent_prefix_path/potamon_interfaces
+[17.203s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/environment/ament_prefix_path.sh
+[17.204s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/environment/ament_prefix_path.dsv
+[17.204s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/environment/path.sh
+[17.204s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/environment/path.dsv
+[17.204s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/local_setup.bash
+[17.204s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/local_setup.sh
+[17.205s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/local_setup.zsh
+[17.205s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/local_setup.dsv
+[17.205s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/package.dsv
+[17.205s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/ament_index/resource_index/packages/potamon_interfaces
+[17.205s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_generator_cExport.cmake
+[17.205s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_generator_cExport-noconfig.cmake
+[17.206s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[17.206s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[17.206s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[17.206s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.206s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_cExport.cmake
+[17.207s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[17.207s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_generator_cppExport.cmake
+[17.207s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.207s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[17.207s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[17.208s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.208s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_cppExport.cmake
+[17.208s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[17.208s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_generator_pyExport.cmake
+[17.208s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/export_potamon_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[17.209s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/rosidl_cmake-extras.cmake
+[17.209s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.209s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.209s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[17.209s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[17.209s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.210s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.210s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfacesConfig.cmake
+[17.210s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake/potamon_interfacesConfig-version.cmake
+[17.210s] -- Installing: /home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/package.xml
+[17.214s] Invoked command in '/home/potamon1/potamon_ws/build/potamon_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /home/potamon1/potamon_ws/build/potamon_interfaces

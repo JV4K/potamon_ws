@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from potamon_interfaces/msg/WheelVelocities.msg
+// generated code does not contain a copyright notice
+
+
+module potamon_interfaces {
+  module msg {
+    typedef float float__4[4];
+    struct WheelVelocities {
+      @verbatim (language="comment", text=
+        "Angular velocities (rad/s) for 4 wheels")
+      float__4 velocities;
+    };
+  };
+};

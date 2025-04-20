@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "potamon_interfaces/srv/SetControlMode_Request",
+      "fields": [
+        {
+          "name": "mode",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "potamon_interfaces/srv/SetControlMode_Request",
+      "hash_string": "RIHS01_d25ee5fcbe6180e3e4e861159caaa519949d66a5968acb11d84ba6b85d2bb594"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[0.014s] Invoking command in '/home/potamon1/potamon_ws/build/potamon-rpi': AMENT_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader:/home/potamon1/potamon_ws/src/install/potamon-rpi:/home/potamon1/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy LD_LIBRARY_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/potamon1/potamon_ws/build/potamon-rpi -- -j4 -l4
+[0.108s] [100%] Built target potamon_rpi
+[0.127s] Invoked command in '/home/potamon1/potamon_ws/build/potamon-rpi' returned '0': AMENT_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader:/home/potamon1/potamon_ws/src/install/potamon-rpi:/home/potamon1/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy LD_LIBRARY_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/potamon1/potamon_ws/build/potamon-rpi -- -j4 -l4
+[0.129s] Invoking command in '/home/potamon1/potamon_ws/build/potamon-rpi': AMENT_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader:/home/potamon1/potamon_ws/src/install/potamon-rpi:/home/potamon1/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy LD_LIBRARY_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/potamon1/potamon_ws/build/potamon-rpi
+[0.142s] -- Install configuration: ""
+[0.142s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/lib/potamon-rpi/potamon_rpi
+[0.142s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch
+[0.143s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/potamon_launch.py
+[0.143s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log
+[0.143s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/latest
+[0.143s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/latest_build
+[0.143s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/build_2025-04-20_17-13-16
+[0.143s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/build_2025-04-20_17-13-16/logger_all.log
+[0.144s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/build_2025-04-20_17-13-16/events.log
+[0.144s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/COLCON_IGNORE
+[0.144s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install
+[0.144s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/local_setup.bash
+[0.144s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/setup.zsh
+[0.144s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/setup.ps1
+[0.144s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/_local_setup_util_ps1.py
+[0.144s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/local_setup.ps1
+[0.144s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/local_setup.sh
+[0.145s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/setup.bash
+[0.145s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/setup.sh
+[0.145s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/_local_setup_util_sh.py
+[0.145s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/local_setup.zsh
+[0.145s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/.colcon_install_layout
+[0.145s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/COLCON_IGNORE
+[0.145s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/build
+[0.145s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/build/.built_by
+[0.146s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/build/COLCON_IGNORE
+[0.146s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/ament_index/resource_index/package_run_dependencies/potamon-rpi
+[0.146s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/ament_index/resource_index/parent_prefix_path/potamon-rpi
+[0.146s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/ament_prefix_path.sh
+[0.146s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/ament_prefix_path.dsv
+[0.146s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/path.sh
+[0.146s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/path.dsv
+[0.146s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.bash
+[0.146s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.sh
+[0.146s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.zsh
+[0.147s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.dsv
+[0.147s] -- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/package.dsv
+[0.147s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/ament_index/resource_index/packages/potamon-rpi
+[0.147s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/cmake/potamon-rpiConfig.cmake
+[0.147s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/cmake/potamon-rpiConfig-version.cmake
+[0.147s] -- Up-to-date: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/package.xml
+[0.150s] Invoked command in '/home/potamon1/potamon_ws/build/potamon-rpi' returned '0': AMENT_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces:/home/potamon1/potamon_ws/src/install/xbox_gamepad_reader:/home/potamon1/potamon_ws/src/install/potamon-rpi:/home/potamon1/potamon_ws/src/install/potamon_interfaces:/opt/ros/jazzy LD_LIBRARY_PATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/potamon1/potamon_ws/install/potamon_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/potamon1/potamon_ws/build/potamon-rpi

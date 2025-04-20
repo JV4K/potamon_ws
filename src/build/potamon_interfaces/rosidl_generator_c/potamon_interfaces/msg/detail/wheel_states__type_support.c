@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "potamon_interfaces/msg/detail/wheel_states__functions.h"
-#include "potamon_interfaces/msg/detail/wheel_states__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "potamon_interfaces/msg/detail/wheel_states__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "potamon_interfaces/msg/detail/wheel_states__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

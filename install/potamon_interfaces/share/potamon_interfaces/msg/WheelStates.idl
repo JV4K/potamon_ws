@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from potamon_interfaces/msg/WheelStates.msg
+// generated code does not contain a copyright notice
+
+
+module potamon_interfaces {
+  module msg {
+    typedef float float__4[4];
+    struct WheelStates {
+      @verbatim (language="comment", text=
+        "Radians (for each of 4 motors)")
+      float__4 angle;
+
+      @verbatim (language="comment", text=
+        "Radians/sec (for each motor)")
+      float__4 angular_velocity;
+
+      @verbatim (language="comment", text=
+        "Amperes (for each motor)")
+      float__4 current;
+    };
+  };
+};

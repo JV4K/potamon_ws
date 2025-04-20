@@ -1,0 +1,7 @@
+[0.013s] Invoking command in '/home/potamon1/potamon_ws/src/potamon-rpi/build/potamon-rpi': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon-rpi -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/src/potamon-rpi/install/potamon-rpi
+[0.027s] [31mCMake Error at CMakeLists.txt:32:
+[0.027s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.027s] 
+[0.027s] [0m
+[0.027s] -- Configuring incomplete, errors occurred!
+[0.030s] Invoked command in '/home/potamon1/potamon_ws/src/potamon-rpi/build/potamon-rpi' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /home/potamon1/potamon_ws/src/potamon-rpi -DCMAKE_INSTALL_PREFIX=/home/potamon1/potamon_ws/src/potamon-rpi/install/potamon-rpi

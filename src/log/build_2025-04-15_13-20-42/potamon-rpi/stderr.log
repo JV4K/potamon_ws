@@ -1,7 +1,0 @@
-[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:[m[K In member function ‘[01m[Kvoid PotamonNode::[01;32m[KhandleSetMode[m[K(potamon_interfaces::srv::SetControlMode_Request_<std::allocator<void> >::SharedPtr, potamon_interfaces::srv::SetControlMode_Response_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/jv4k/potamon_ws/src/potamon-rpi/src/potamon_control.cpp:439:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_mode_[m[K’ was not declared in this scope
-  439 |         [01;31m[Kcurrent_mode_[m[K = req->mode;
-      |         [01;31m[K^~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/potamon_rpi.dir/build.make:76: CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/potamon_rpi.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
