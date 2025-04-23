@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found potamon_interfaces: 0.0.0 (/home/potamon1/potamon_ws/install/potamon_interfaces/share/potamon_interfaces/cmake)
+-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tf2: 0.36.7 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/potamon1/potamon_ws/build/potamon-rpi
+[ 50%] [32mBuilding CXX object CMakeFiles/potamon_rpi.dir/src/potamon_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable potamon_rpi[0m
+[100%] Built target potamon_rpi
+-- Install configuration: ""
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/lib/potamon-rpi/potamon_rpi
+-- Set non-toolchain portion of runtime path of "/home/potamon1/potamon_ws/install/potamon-rpi/lib/potamon-rpi/potamon_rpi" to ""
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/potamon_launch.py
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/latest
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/latest_build
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/build_2025-04-20_17-13-16
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/build_2025-04-20_17-13-16/logger_all.log
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/build_2025-04-20_17-13-16/events.log
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/log/COLCON_IGNORE
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/local_setup.bash
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/setup.zsh
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/setup.ps1
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/_local_setup_util_ps1.py
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/local_setup.ps1
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/local_setup.sh
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/setup.bash
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/setup.sh
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/_local_setup_util_sh.py
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/local_setup.zsh
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/.colcon_install_layout
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/install/COLCON_IGNORE
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/build
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/build/.built_by
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi//launch/build/COLCON_IGNORE
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/ament_index/resource_index/package_run_dependencies/potamon-rpi
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/ament_index/resource_index/parent_prefix_path/potamon-rpi
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/ament_prefix_path.sh
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/ament_prefix_path.dsv
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/path.sh
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/environment/path.dsv
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.bash
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.sh
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.zsh
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/local_setup.dsv
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/package.dsv
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/ament_index/resource_index/packages/potamon-rpi
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/cmake/potamon-rpiConfig.cmake
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/cmake/potamon-rpiConfig-version.cmake
+-- Installing: /home/potamon1/potamon_ws/install/potamon-rpi/share/potamon-rpi/package.xml

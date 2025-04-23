@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "potamon_interfaces/srv/detail/set_control_mode__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "potamon_interfaces/srv/detail/set_control_mode__type_support.h"
 #include "potamon_interfaces/srv/detail/set_control_mode__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

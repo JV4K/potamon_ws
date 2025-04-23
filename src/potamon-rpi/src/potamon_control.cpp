@@ -94,35 +94,36 @@ public:
         last_heartbeat_time_ = this->now();
 
         // Services
-
+	
         // Control mode service
-        set_mode_srv_ = create_service<potamon_interfaces::srv::SetControlMode>(
+        auto qos = rclcpp::QoS(rclcpp::ServicesQoS().keep_last(10));
+	set_mode_srv_ = create_service<potamon_interfaces::srv::SetControlMode>(
             "/set_control_mode",
-            std::bind(&PotamonNode::handleSetMode, this, std::placeholders::_1, std::placeholders::_2));
+            std::bind(&PotamonNode::handleSetMode, this, std::placeholders::_1, std::placeholders::_2), qos);
 
         glob_dom_on_srv = create_service<std_srvs::srv::Trigger>(
             "/global_domain_on",
-            std::bind(&PotamonNode::handleGlobDomOn, this, std::placeholders::_1, std::placeholders::_2));
+            std::bind(&PotamonNode::handleGlobDomOn, this, std::placeholders::_1, std::placeholders::_2), qos);
 
         glob_dom_off_srv = create_service<std_srvs::srv::Trigger>(
             "/global_domain_off",
-            std::bind(&PotamonNode::handleGlobDomOff, this, std::placeholders::_1, std::placeholders::_2));
+            std::bind(&PotamonNode::handleGlobDomOff, this, std::placeholders::_1, std::placeholders::_2),qos);
 
         pid_head_on_srv = create_service<std_srvs::srv::Trigger>(
             "/heading_pid_on",
-            std::bind(&PotamonNode::handlePidHeadEnable, this, std::placeholders::_1, std::placeholders::_2));
+            std::bind(&PotamonNode::handlePidHeadEnable, this, std::placeholders::_1, std::placeholders::_2),qos);
 
         pid_head_off_srv = create_service<std_srvs::srv::Trigger>(
             "/heading_pid_off",
-            std::bind(&PotamonNode::handlePidHeadDisable, this, std::placeholders::_1, std::placeholders::_2));
+            std::bind(&PotamonNode::handlePidHeadDisable, this, std::placeholders::_1, std::placeholders::_2), qos);
 
         reset_odom_srv_ = create_service<std_srvs::srv::Trigger>(
             "/reset_odometry",
-            std::bind(&PotamonNode::handleResetOdometry, this, std::placeholders::_1, std::placeholders::_2));
+            std::bind(&PotamonNode::handleResetOdometry, this, std::placeholders::_1, std::placeholders::_2), qos);
 
         clear_fault_srv_ = create_service<std_srvs::srv::Trigger>(
             "/clear_overcurrent_fault",
-            std::bind(&PotamonNode::handleClearFault, this, std::placeholders::_1, std::placeholders::_2));
+            std::bind(&PotamonNode::handleClearFault, this, std::placeholders::_1, std::placeholders::_2), qos);
 
         // Start communication thread
         com_thread_ = std::thread(&PotamonNode::comLoop, this);
@@ -199,7 +200,7 @@ private:
                                      "Heartbeat timeout! Last received %.1fms ago",
                                      since_last_heartbeat.seconds() * 1000);
 
-                ptm_vcp_host.MODE = IDLE;
+                mid_mode = IDLE;
             }
 
             auto loop_start = std::chrono::steady_clock::now();
@@ -523,7 +524,7 @@ private:
     // Heartbeat
     rclcpp::Time last_heartbeat_time_;
     std::atomic<bool> heartbeat_ok_{false};
-    std::chrono::milliseconds heartbeat_timeout_{500}; // Default 500ms timeout
+    std::chrono::milliseconds heartbeat_timeout_{200}; // Default 200ms timeout
 
     rclcpp::Publisher<potamon_interfaces::msg::SystemStatus>::SharedPtr status_pub;
     rclcpp::Publisher<potamon_interfaces::msg::WheelStates>::SharedPtr wheel_state_pub;
