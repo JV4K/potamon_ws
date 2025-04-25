@@ -39,10 +39,6 @@
 
 #include "potamon_USBVCP.h"
 
-uint8_t potamon_operating_mode;
-VCP_mode_cmd_t mid_mode = IDLE;
-uint8_t faults_flag = 0;
-
 #define VCP_RES_FLAG_MSK 0b11111000
 
 class PotamonNode : public rclcpp::Node
@@ -94,10 +90,10 @@ public:
         last_heartbeat_time_ = this->now();
 
         // Services
-	
+
         // Control mode service
         auto qos = rclcpp::QoS(rclcpp::ServicesQoS().keep_last(10));
-	set_mode_srv_ = create_service<potamon_interfaces::srv::SetControlMode>(
+        set_mode_srv_ = create_service<potamon_interfaces::srv::SetControlMode>(
             "/set_control_mode",
             std::bind(&PotamonNode::handleSetMode, this, std::placeholders::_1, std::placeholders::_2), qos);
 
@@ -107,11 +103,11 @@ public:
 
         glob_dom_off_srv = create_service<std_srvs::srv::Trigger>(
             "/global_domain_off",
-            std::bind(&PotamonNode::handleGlobDomOff, this, std::placeholders::_1, std::placeholders::_2),qos);
+            std::bind(&PotamonNode::handleGlobDomOff, this, std::placeholders::_1, std::placeholders::_2), qos);
 
         pid_head_on_srv = create_service<std_srvs::srv::Trigger>(
             "/heading_pid_on",
-            std::bind(&PotamonNode::handlePidHeadEnable, this, std::placeholders::_1, std::placeholders::_2),qos);
+            std::bind(&PotamonNode::handlePidHeadEnable, this, std::placeholders::_1, std::placeholders::_2), qos);
 
         pid_head_off_srv = create_service<std_srvs::srv::Trigger>(
             "/heading_pid_off",
@@ -207,6 +203,14 @@ private:
 
             // 1. Prepare data (callbacks)
             ptm_vcp_host.MODE = (uint8_t)mid_mode;
+            if (odom_reset_isRequested){
+                ptm_vcp_host.FLAGS |= 1;
+                odom_reset_isRequested = 0;
+            }
+            if (clear_fault_isRequested){
+                ptm_vcp_host.FLAGS |= 1 << 2;
+                clear_fault_isRequested = 0;
+            }
 
             // 2. Send to COM
             ssize_t bytesWritten = write(serial_port, &ptm_vcp_host, sizeof(ptm_vcp_host));
@@ -222,6 +226,7 @@ private:
                             bytesWritten, sizeof(ptmn_usb_host_t));
             }
 
+            // Reset clear/reset request flags after sending
             ptm_vcp_host.FLAGS &= VCP_RES_FLAG_MSK;
 
             // 3. Receive response
@@ -397,7 +402,7 @@ private:
                 res->success = false;
                 res->message = "Failed to switch modes, there are faults in system";
             }
-            
+
             break;
 
         case potamon_interfaces::srv::SetControlMode::Request::MODE_TRAJECTORY:
@@ -426,7 +431,7 @@ private:
                 res->success = false;
                 res->message = "Failed to switch modes, there are faults in system";
             }
-            
+
             break;
 
         case potamon_interfaces::srv::SetControlMode::Request::MODE_WHEELS_ANGLE:
@@ -458,7 +463,7 @@ private:
         const std_srvs::srv::Trigger::Request::SharedPtr,
         std_srvs::srv::Trigger::Response::SharedPtr res)
     {
-        ptm_vcp_host.FLAGS |= 1;
+        odom_reset_isRequested = 1;
         res->success = true;
         res->message = "Odometry reset";
     }
@@ -467,7 +472,7 @@ private:
         const std_srvs::srv::Trigger::Request::SharedPtr,
         std_srvs::srv::Trigger::Response::SharedPtr res)
     {
-        ptm_vcp_host.FLAGS |= 1 << 2;
+        clear_fault_isRequested = 1;
         res->success = true;
         res->message = "Faults cleared";
     }
@@ -513,6 +518,12 @@ private:
     int serial_port;
     struct termios2 tty; // COM port settings struct
 
+    // Globals
+    VCP_mode_cmd_t mid_mode = IDLE;
+    uint8_t faults_flag = 0;
+    uint8_t clear_fault_isRequested = 0;
+    uint8_t odom_reset_isRequested = 0;
+
     // Comms packets
     ptmn_usb_device_t ptmn_vcp_device;
     ptmn_usb_host_t ptm_vcp_host;
@@ -526,11 +537,13 @@ private:
     std::atomic<bool> heartbeat_ok_{false};
     std::chrono::milliseconds heartbeat_timeout_{200}; // Default 200ms timeout
 
+    // Publisher
     rclcpp::Publisher<potamon_interfaces::msg::SystemStatus>::SharedPtr status_pub;
     rclcpp::Publisher<potamon_interfaces::msg::WheelStates>::SharedPtr wheel_state_pub;
     rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odom_pub_;
     rclcpp::Publisher<sensor_msgs::msg::Imu>::SharedPtr imu_pub_;
 
+    // Subscribers
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr vel_cmd_sub;
     rclcpp::Subscription<potamon_interfaces::msg::WheelVelocities>::SharedPtr wheel_vel_cmd_sub;
     rclcpp::Subscription<potamon_interfaces::msg::WheelAngles>::SharedPtr wheel_ang_cmd_sub;
